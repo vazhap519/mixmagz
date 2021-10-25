@@ -7,6 +7,18 @@
     font-family:"Montserrat-Regular" ;
     src: url("../fonts/monserat/Montserrat-Regular.ttf");
 }
+@font-face {
+    font-family:"Montserrat-Light" ;
+    src: url('../fonts/monserat/Montserrat-Light.ttf');
+}
+@font-face {
+    font-family:"Montserrat-Medium" ;
+    src: url('../fonts/monserat/Montserrat-Medium.ttf');
+}
+#wrapper{
+    padding: 0;
+    
+}
 .HeaderTopSection{
     background-color: #f0f0f0;
     width: 100%;
@@ -16,7 +28,7 @@
     margin: 0;
     font-family:"Montserrat-Regular" ;
     text-transform: uppercase;
-    margin-left: 75px;
+    margin-left: 30px;
     padding: 16px 0;
 }
 .logoArea a{
@@ -25,40 +37,55 @@
 }
 .socialArea{
     display: inline-block;
-    list-style:  none;
+    list-style: none;
+    margin-top: 10px;
+    margin-right: 30px;
+    float: right;
 }
 .socialArea li{
     display: inline-block;
-    font-size: 18px;
-   
+
+   position: relative;
    
 }
 .socialArea li a{
-
-    color: #fff;
-    text-decoration: none;
-    text-align: center;
-    width: 16px;
-    height: 16px;
-  }
-
-
-.facebook{
-    background-color: #0054a6;
-}
-#facebook{
-    color: #fff;
+    padding-left: 5px;
+    padding-right: 5px;
     
 }
-#instagram{
-color: #8c6239;
+.socialArea li a.facebook{
+    background-color: #0054a6;
+    color: #fff;
 }
-.pinterest a{
-    background: #f06eaa;
+.socialArea li a.facebook{
+    background-color: #0054a6;
+    color: #fff;
+}
+.socialArea li a.instagram{
+    color:#a58667;
+}
+.socialArea li a.twitter{
+ 
+    color: #00bff3;
+}
+.socialArea li a.pinterest{
+ background-color:#f06eaa ;
+    color: #fff;
     border-radius: 50%;
-    text-align: center;
+}
+.socialArea li a.google{
   
-}
-.pinterest{
-    font-size: 18px;
-}
+       color:#50bc5f;
+ }
+ .FL{
+    font-family:"Montserrat-Light" ;
+    font-size: 36px;
+    text-transform: capitalize;
+    color: #002157;
+ }
+ .SL{
+    color: #fc4733; 
+    text-transform: capitalize;
+    font-size: 36px;
+
+ }
