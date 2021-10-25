@@ -1,0 +1,2 @@
+# mixmagz
+responsive frontend
