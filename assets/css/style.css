@@ -1,0 +1,64 @@
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family:"Montserrat-Regular" ;
+    src: url("../fonts/monserat/Montserrat-Regular.ttf");
+}
+.HeaderTopSection{
+    background-color: #f0f0f0;
+    width: 100%;
+}
+.logoArea{
+    display: inline-block;
+    margin: 0;
+    font-family:"Montserrat-Regular" ;
+    text-transform: uppercase;
+    margin-left: 75px;
+    padding: 16px 0;
+}
+.logoArea a{
+    text-decoration: none;
+    color: #cccccc;
+}
+.socialArea{
+    display: inline-block;
+    list-style:  none;
+}
+.socialArea li{
+    display: inline-block;
+    font-size: 18px;
+   
+   
+}
+.socialArea li a{
+
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    width: 16px;
+    height: 16px;
+  }
+
+
+.facebook{
+    background-color: #0054a6;
+}
+#facebook{
+    color: #fff;
+    
+}
+#instagram{
+color: #8c6239;
+}
+.pinterest a{
+    background: #f06eaa;
+    border-radius: 50%;
+    text-align: center;
+  
+}
+.pinterest{
+    font-size: 18px;
+}
