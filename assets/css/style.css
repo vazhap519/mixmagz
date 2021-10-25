@@ -15,6 +15,10 @@
     font-family:"Montserrat-Medium" ;
     src: url('../fonts/monserat/Montserrat-Medium.ttf');
 }
+@font-face {
+    font-family:"Montserrat-ExtraLightItalic" ;
+    src: url('../fonts/monserat/Montserrat-ExtraLightItalic.ttf');
+}
 #wrapper{
     padding: 0;
     
@@ -92,4 +96,39 @@
  #headerMiddleSectionNav ul li:active{
 background-color: #fc4733;
 color: #fff;
+ }
+ #headerMiddleSectionNav ul li a{
+     color: #555555;
+     text-transform: uppercase;
+     font-family:"Montserrat-Medium" ;
+     font-size: 13px;
+ }
+ .searchForm{
+     position: relative;
+ }
+ .searchForm input{
+     padding-top: 14px;
+     padding-bottom: 14px;
+     padding-left: 25px;
+     padding-right: 60px;
+     border-radius: 0!important;
+ }
+ .searchForm .btn{
+position: absolute;
+right: 0;
+color: #fc4733;
+ }
+
+ .headerBottomSectionNav{
+     background-color: #002157!important;
+     
+ }
+ .headerBottomSectionNav ul li {
+     border-right:1px solid #ccc
+ }
+ .headerBottomSectionNav ul li a{
+     color: #fff !important;
+     text-transform: uppercase;
+     font-family:"Montserrat-Medium" ;
+     font-size: 13px;
  }
