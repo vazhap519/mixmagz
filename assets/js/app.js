@@ -1,11 +1,14 @@
 var BuisnessNews=document.querySelectorAll(".TopNewsesContainerLeftContent");
 var BCount=0;
-function BuisnessSilede(){
- for(var i=0;i<BuisnessNews.length;i++){
-     if(BuisnessNews[i]>BCount){
-         console.log(BCount++);
-         BuisnessNews[i].style.Background="green";
-     }
- }
+let TopNewsesContainerLeft=document.querySelector(".TopNewsesContainerLeft")
+
+TopNewsesContainerLeft.addEventListener("click",function(){
+if(BCount<BuisnessNews.length){
+    
+    for(var i=0;i<BuisnessNews.length;i++){
+        BCount++;
+        console.log(BuisnessNews[i])
+        
+    }
 }
-var interval=setInterval(BuisnessSilede,1000)
+})
