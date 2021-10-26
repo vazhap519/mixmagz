@@ -23,6 +23,10 @@
     font-family:"Montserrat-ExtraLightItalic" ;
     src: url('../fonts/monserat/Montserrat-ExtraLightItalic.ttf');
 }
+@font-face {
+    font-family:"Montserrat-Bold" ;
+    src: url('../fonts/monserat/Montserrat-Bold.ttf');
+}
 #wrapper{
     padding: 0;
     overflow: hidden;
@@ -142,32 +146,88 @@ color: #fc4733;
      background-color: blue;
      height: auto;
  }
- .TopNewsesContainerLeftArea{
-     height: 520px;
-     padding: 0!important;
 
- }
- .TopNewsesContainerLeftAreaContent{
+ .TopNewsesContainerLeft{
+     height: 525px;
      position: relative;
-     width: 100%;
-     height: 100%;
-     background-color: saddlebrown;
+     padding: 0!important;
+     margin: 0;
  }
- .TopNewsesContainerLeftAreaContentS{
-     position: relative;
-     background-image:url('../images/1.png') ;
-     background-size: cover;
-     background-repeat: no-repeat;
-     background-position: center center;
-     z-index: 2;
- }
- .TopNewsesContainerLeftAreaContentSubOverlay{
-     width: 100%;
-     height: 100%;
-     position: absolute;
-     z-index: 1;
-     background-color: rgba(141, 95, 185, 0.4);
- }
+.TopNewsesContainerLeftContent{
+    position: absolute;
+    height: 100%;
+    background-color: red;
+    width: 100%;
+  background-image: url("../images/1.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.bgOverlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    background-color: rgba(122, 105, 185, 0.4)
+}
+.TopNewsesContainerLeftContentArea{
+    width: 315px;
+    height: 270px;
+    position: relative;
+    z-index: 2;
+
+    top: 180px;
+    left:35px ;
+    padding: 0 !important;
+}
+.TopNewsesContainerLeftContentArea .BtnCat{
+    background-color: #00bff3;
+    border-radius:0!important;
+    color: #fff;
+    font-family:"Montserrat-Light" ;
+    font-size: 12px;
+    margin-left: 15px;
+    text-decoration: none;
+}
+.TopNewsesContainerLeftContentArea .BtnCat:hover{
+    color: #fff;
+
+}
+.TopNewsesContainerLeftContentArea >p{
+    font-size: 30px;
+    color: #fff;
+    font-family: "Montserrat-Bold";
+padding-left: 15px;
+    margin-top: 25px;
+   
+}
+
+.TopNewsesContainerLeftContentArea .Bmeta{
+    display: inline-block;
+    padding: 0;
+    font-family:"Montserrat-Light" ;
+    font-size: 12px;
+    margin-left: 25px;
+}
+.TopNewsesContainerLeftContentArea .Bmeta li{
+    display: inline-block;
+    padding-left: 10px;
+}
+.TopNewsesContainerLeftContentArea .Bmeta li:first-child{
+    padding-left: 0px;
+}
+.TopNewsesContainerLeftContentArea .Bmeta li::after{
+    content: "|";
+    color: #ccc;
+    padding-left: 10px;
+}
+.TopNewsesContainerLeftContentArea .Bmeta li a{
+    font-family:"Montserrat-Light" ;
+    font-size: 12px;
+    color:#ccc;
+    text-transform: capitalize;
+}
+
 
  .TopNewsesContainerRightArea{
      background-color: brown;
