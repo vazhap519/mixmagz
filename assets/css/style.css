@@ -145,6 +145,7 @@ color: #fc4733;
  .TopNewsesContainer{
      background-color: blue;
      height: auto;
+     margin-top: 60px;
  }
 
  .TopNewsesContainerLeft{
@@ -161,9 +162,12 @@ color: #fc4733;
   background-image: url("../images/1.png");
   background-position: center center;
   background-repeat: no-repeat;
-  display: block;
+ display: none;
 }
-
+.active{
+    display: block;
+   
+}
 
 
 .bgOverlay{
@@ -236,3 +240,15 @@ padding-left: 15px;
      background-color: brown;
      margin-left: 40px;
  }
+.sportNewsArea{
+    background-color: #002157;
+    height: 245px;
+    width: 100%;
+    margin-left: 35px;
+}
+.photographyNewsArea{
+    background-color: #a58667;
+    height: 245px;
+    width: 100%;
+    margin-left: 35px;
+}

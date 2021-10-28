@@ -1,23 +1,17 @@
-var SlidesItems=document.querySelectorAll(".TopNewsesContainerLeftContent");
-let currentindex=0;
-var B=document.querySelector(".btn");
-function Sld() {
-    for(var i=0;i<SlidesItems.length;i++){
-        SlidesItems[i].style.display="none";
-    }
-    SlidesItems[currentindex].style.display="block";
-
+var Bslide=document.querySelectorAll(".TopNewsesContainerLeftContent");
+var cOunT=0;
+function update(){
+for(var i=0;i<Bslide.length;i++){
+    Bslide[i].classList.remove('active')
 }
-function right() {
-    if(currentindex==SlidesItems.length-1){
+}
+function ChangeSlide(){
     
-        currentindex++;
-    }else{
-        currentindex=0;
+    cOunT++
+    update()
+    if(cOunT>(Bslide.length-1)){
+        cOunT=0;
     }
-    Sld()
+    Bslide[cOunT].classList.add('active')
 }
-B.addEventListener('click',right());
-setInterval(function () {
-    B
-})
+setInterval(ChangeSlide,6000)
