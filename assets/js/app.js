@@ -14,4 +14,25 @@ function ChangeSlide(){
     }
     Bslide[cOunT].classList.add('active')
 }
-setInterval(ChangeSlide,6000)
+setInterval(ChangeSlide,2000)
+
+
+var Sport=document.querySelectorAll(".sportNewsAreaContent");
+var SportC=0;
+function SportSlideLen(){
+for(var i=0;i<Sport.length;i++){
+Sport[i].style.display="none";
+
+}
+
+}
+function ChangeSportLen(){
+    SportC++
+    SportSlideLen();
+if(SportC>Sport.length-1){
+    SportC=0;
+}
+Sport[SportC].style.display="block";
+
+}
+setInterval(ChangeSportLen,2000)

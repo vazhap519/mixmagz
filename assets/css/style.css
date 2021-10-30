@@ -146,6 +146,8 @@ color: #fc4733;
      background-color: blue;
      height: auto;
      margin-top: 60px;
+     margin-left: auto!important;
+     margin-right: auto!important;
  }
 
  .TopNewsesContainerLeft{
@@ -209,26 +211,26 @@ padding-left: 15px;
    
 }
 
-.TopNewsesContainerLeftContentArea .Bmeta{
+.meta{
     display: inline-block;
     padding: 0;
     font-family:"Montserrat-Light" ;
     font-size: 12px;
     margin-left: 25px;
 }
-.TopNewsesContainerLeftContentArea .Bmeta li{
+.meta li{
     display: inline-block;
     padding-left: 10px;
 }
-.TopNewsesContainerLeftContentArea .Bmeta li:first-child{
+.meta li:first-child{
     padding-left: 0px;
 }
-.TopNewsesContainerLeftContentArea .Bmeta li::after{
+.meta li::after{
     content: "|";
     color: #ccc;
     padding-left: 10px;
 }
-.TopNewsesContainerLeftContentArea .Bmeta li a{
+.meta li a{
     font-family:"Montserrat-Light" ;
     font-size: 12px;
     color:#ccc;
@@ -245,10 +247,76 @@ padding-left: 15px;
     height: 245px;
     width: 100%;
     margin-left: 35px;
+    position: relative;
+    overflow: hidden;
+    padding: 0!important;
+
 }
+
+
+.sportNewsAreaContent{
+    position: absolute;
+    height: 100%;
+}
+.sportNewsAreaContent > img{
+    position: absolute;
+    z-index: 0;
+    height: 100%;
+}
+
+ul.sportNewsAreaContentDesc {
+    position: absolute;
+    z-index: 4;
+    color: #fff;
+    /* background: red; */
+    top: 95px;
+    height: 130px;
+    width: 185px;
+    left: 20px;
+    list-style: none;
+}
+
+ul.sportNewsAreaContentDesc  li .sportNewsAreaCat{
+    font-family:"Montserrat-Light" ;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 12px;
+    text-decoration: none;
+    background-color: #f5dc38;
+    border-radius: 0!important;
+}
+ul.sportNewsAreaContentDesc  li .sportNewsAreaCat:hover{
+    color: #fff;
+    text-decoration: none;
+
+}
+ul.sportNewsAreaContentDesc  li p{
+    margin-top: 10px;
+}
+ul.sportNewsAreaContentDesc  li p a{
+    font-family:"Montserrat-Bold" ;
+    font-size: 16px;
+
+    color: #fff;
+}
+
+.SportsMeta {
+    font-size: 10px;
+    position: relative;
+    top: 20px;
+    margin-left: 0;
+    font-family: "Montserrat-Regular";
+}
+
+.SportsMeta li:last-child::after{
+    content: ' '!important;
+}
+
+
 .photographyNewsArea{
     background-color: #a58667;
     height: 245px;
     width: 100%;
     margin-left: 35px;
 }
+
