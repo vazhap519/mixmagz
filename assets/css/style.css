@@ -248,6 +248,7 @@ padding-left: 15px;
      /* background-color: brown; */
      /* margin-left: 40px; */
      height: auto;
+     padding: 0!important;
  }
 .sportNewsArea{
     background-color: #002157;
@@ -271,6 +272,7 @@ padding-left: 15px;
     position: absolute;
     z-index: 0;
     height: 100%;
+    width: 100%;
 }
 
 ul.sportNewsAreaContentDesc {
@@ -436,4 +438,22 @@ background-color: #39b54a;
     }
     .healthMeta li:last-child::after{
 content: none!important;
+    }
+
+    .leaderBoard{
+        border: 2px solid #e9e9e9;
+        margin-top: 65px;
+        height: auto;
+    }
+    .leaderBoard >p{
+       padding-top: 35px;
+    padding-bottom: 35px;
+    margin: auto;
+    /* display: inline-block; */
+    width: 100%;
+    text-align: center;
+    font-size: 29px;
+    font-family:"Montserrat-ExtraLight" ;
+    text-transform: uppercase;
+    color: #e9e9e9;
     }
