@@ -56,3 +56,23 @@ function updatePhotoGrafyLen(){
     PhotoGrafy[PhotoGrafyCount].style.display="block"
 }
 setInterval(updatePhotoGrafyLen,1000)
+
+
+
+var HCont=document.querySelectorAll(".healthContent");
+var HContCount=0;
+function HContLen(){
+    for(var i=0;i<HCont.length;i++){
+        HCont[i].style.display="none"
+    }
+}
+
+function HContLenUpdate(){
+    HContCount++;
+    HContLen();
+    if(HContCount>HCont.length-1){
+        HContCount=0;
+    }
+    HCont[HContCount].style.display="block"
+}
+setInterval(HContLenUpdate,1000)
