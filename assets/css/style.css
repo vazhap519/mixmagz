@@ -143,7 +143,7 @@ color: #fc4733;
  }
 
  .TopNewsesContainer{
-     background-color: blue;
+     /* background-color: blue; */
      height: auto;
      margin-top: 60px;
      /* margin-left: auto!important;
@@ -384,9 +384,9 @@ color: #fff;
 
 .health{
     height: 240px;
-    background-color: orchid;
+
     margin-left: 34px;
-    margin-top: 25px;
+    margin-top: 40px;
     padding-right: 0!important;
     padding-left: 0!important;
 
@@ -406,8 +406,8 @@ width: 100%;
 .healthContentDesc{
     position: absolute;
     z-index: 1;
-    height: 90px;
-    background-color: red;
+    height: 110px;
+   
     width: 435px;
   left: 20px;
   top: 130px;
@@ -418,10 +418,22 @@ text-transform: uppercase;
 color: #fff;
 background-color: #39b54a;
 }
+.healthContentDesc li p{
+    margin: 0!important;
+    margin-top: 14px!important;
+}
 .healthContentDesc li p a{
     font-family:"Montserrat-Bold" ;
-    font-size: 18px;
+    font-size: 17px;
     color: #fff;
     text-transform: uppercase;
     }
     
+    ul.healthMeta {
+        margin-left: 0;
+        margin-top: 15px
+    ;
+    }
+    .healthMeta li:last-child::after{
+content: none!important;
+    }

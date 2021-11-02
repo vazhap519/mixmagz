@@ -14,11 +14,10 @@ function ChangeSlide(){
     }
     Bslide[cOunT].classList.add('active')
 }
-// setInterval(ChangeSlide,2000)
+ setInterval(ChangeSlide,1000)
 
 var Sport=document.querySelectorAll(".sportNewsAreaContent");
 var SportC=0;
-
 function SportSlideLen(){
 for(var i=0;i<Sport.length;i++){
 Sport[i].style.display="none";
@@ -35,5 +34,25 @@ if(SportC>Sport.length-1){
 Sport[SportC].style.display="block";
 
 }
-setInterval(ChangeSportLen,2000)
+setInterval(ChangeSportLen,1000)
 
+
+
+var PhotoGrafy=document.querySelectorAll(".photographyNewsContent");
+var PhotoGrafyCount=0;
+function PhotoGrafyLen(){
+    for(var i=0;i<PhotoGrafy.length;i++){
+        PhotoGrafy[i].style.display="none"
+    }
+}
+
+function updatePhotoGrafyLen(){
+    PhotoGrafyCount++;
+    PhotoGrafyLen()
+    if(PhotoGrafyCount>PhotoGrafy.length-1){
+        PhotoGrafyCount=0;
+       
+    }
+    PhotoGrafy[PhotoGrafyCount].style.display="block"
+}
+setInterval(updatePhotoGrafyLen,1000)
