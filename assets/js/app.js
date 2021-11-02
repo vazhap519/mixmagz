@@ -16,9 +16,9 @@ function ChangeSlide(){
 }
 setInterval(ChangeSlide,2000)
 
-
 var Sport=document.querySelectorAll(".sportNewsAreaContent");
 var SportC=0;
+
 function SportSlideLen(){
 for(var i=0;i<Sport.length;i++){
 Sport[i].style.display="none";
@@ -36,3 +36,5 @@ Sport[SportC].style.display="block";
 
 }
 setInterval(ChangeSportLen,2000)
+
+
