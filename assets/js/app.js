@@ -76,3 +76,55 @@ function HContLenUpdate(){
     HCont[HContCount].style.display="block"
 }
 setInterval(HContLenUpdate,1000)
+
+
+
+var PostsCarousel=document.querySelector(".TopNewsesHeadlinesAreaCarousel"),
+    PostsCarouselWidth=PostsCarousel.offsetWidth,
+    PostsCarouselChilds=PostsCarousel.children
+var margin=30;
+let elements=0;
+let Right=document.querySelector(".arrowR");
+
+responsive=[
+    {breakPoint:{items:1,Itemswidth:0}},
+        
+    {breakPoint:{items:2,Itemswidth:600}},
+    {breakPoint:{items:4,Itemswidth:1000}}
+    
+]
+window.onload=loadSlide()
+function loadSlide(){
+    for(var i=0;i<responsive.length;i++){
+        if(window.innerWidth>responsive[i].breakPoint.Itemswidth){
+            elements=responsive[i].breakPoint.items;
+        }
+
+        console.log(elements)
+    }
+    start()
+}
+function start(){
+    var totalwidth=0;
+    for(var i=0;i<PostsCarouselChilds.length;i++){
+        totalwidth+=PostsCarouselWidth/elements;
+        PostsCarouselChilds[i].style.width=(PostsCarouselWidth/elements)-margin +"px";
+        PostsCarouselChilds[i].style.margin=(margin/2)+"px";
+     
+    }
+    PostsCarousel.style.width=totalwidth+"px";
+}
+let TopCount=0;
+Right.addEventListener("click",Right);
+
+function RightT(){
+    for(var i=0;i<PostsCarouselChilds.length;i++){
+        TopCount++;
+        PostsCarouselChilds[i].style.transform="translateX(50)"
+        if(TopCount<12){
+           
+        }
+    }
+    console.log("click");
+}
+RightT()
