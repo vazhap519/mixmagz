@@ -460,23 +460,36 @@ content: none!important;
     position: relative;
     width: 100%;
     height: auto;
+    background-color: orange;
 }
-.slideshowTopnewsesTopArea >h1{
+.slideshowTopnewsesTopArea h1{
+max-width: 400px;
+height: auto;
+}
+.slideshowTopnewsesTopArea{
+position: relative;
 width: 100%;
 }
-.slideshowTopnewsesTopArea >h1::after{
+.slideshowTopnewsesTopArea::after{
     position: absolute;
     height: 3px;
-    width: auto;
+    width: 35%;
 border-bottom: 3px solid red;
 height: 20px;
 bottom: 0;
+content: "";
+right: 0;
+top:15%
 }
-.slideshowTopnewsesTopArea >h1::before{
+.slideshowTopnewsesTopArea::before{
     position: absolute;
     height: 3px;
-    width: auto;
+    width: 34%;
 border-top: 3px solid red;
 height: 20px;
-top: 0;
+bottom: 0;
+content: "";
+left: 0;
+top:55%
 }
+
