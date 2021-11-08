@@ -456,101 +456,27 @@ content: none!important;
     }
 
 
-
-    .TopNewsesHeadlinesArea{
-        margin-top: 95px; 
-        
-        height: auto;
-        width: 100%;
-    }
-    .TopNewsesHeadlines{
-        
-        height: auto;
-        width: 100%;
-    }
-
-.TopNewsesHeadline{
-    font-family: "Montserrat-Bold";
-    font-size: 30px;
-    color: #fc513f;
-    height: auto;
-    text-transform: uppercase;
-    margin-left: 380px;
-}
-
-
-.TopNewsesHeadlines::before{
-    width: 385px;
-        height: 10px;
-        content: "";
-        border-top: 2px solid #999;
-        position: absolute;
-        margin-top: 15px;
-    }
-
-    .TopNewsesHeadlines::after{
-        width: 100%;
-        height: 10px;
-        content: "";
-        border-top: 2px solid #999;
-        position: absolute;
-        top: 15px;
-        left: 778px;
-        }
-    .TopNewsesHeadlinesArrows{
-    list-style: none;
-            position: absolute;
-            z-index: 4;
-            top: -15px;
-            right: 395px;
-            display: inline block;
-    }
-    .TopNewsesHeadlinesArrows li.arrows{
-display: inline-block;
-padding: 5px 10px;
-border:1px solid #999;
-font-size: 30px;
-color: #999;
-
-    }
-    .arrowL{
-        margin-right:15px;
-    }
-    .ThumbSlider{
-        width: 100%;
-        float: left;
-        
-    }
-
-    .TopNewsesHeadlinesAreaCarousel{
-        list-style: none;
-        display: flex;
-        margin: auto;
-        background-color: #39b54a;
-        overflow: hidden;
-
-    }
-    .TopNewsesHeadlinesAreaCarousel li{
-        height: 325px;
-        border: 1px solid;
+.slideshowvTopnewses{
     position: relative;
-    }
-        
-
-    
-    .TopNewsesHeadlinesAreaCarousel li>img{
-        position: absolute;
-        width: 100%;
-        height: 250px;
-    }
-    
-        .TopNewsesHeadlinesAreaCarouselCat {
-            position: absolute;
-            z-index: 2;
-            background-color: grey!important;
-            top: 211px;
-            text-transform: uppercase;
-            color: #fff!important;
-        }
-    
-    
+    width: 100%;
+    height: auto;
+}
+.slideshowTopnewsesTopArea >h1{
+width: 100%;
+}
+.slideshowTopnewsesTopArea >h1::after{
+    position: absolute;
+    height: 3px;
+    width: auto;
+border-bottom: 3px solid red;
+height: 20px;
+bottom: 0;
+}
+.slideshowTopnewsesTopArea >h1::before{
+    position: absolute;
+    height: 3px;
+    width: auto;
+border-top: 3px solid red;
+height: 20px;
+top: 0;
+}
