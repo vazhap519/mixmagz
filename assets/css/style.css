@@ -53,7 +53,7 @@
     color: #cccccc;
 }
 .socialArea{
-    display: inline-block;
+    /* display: inline-block; */
     list-style: none;
     margin-top: 10px;
     margin-right: 30px;
@@ -462,7 +462,7 @@ content: none!important;
 .TopNewses > .row{
 margin-left: 0!important;
 margin-right: 0!important;
-border-bottom: 1px solid #999;
+border-bottom: 3px solid #999;
 }
 .slideshowvTopnewses{
     position: relative;
@@ -473,7 +473,7 @@ border-bottom: 1px solid #999;
     margin-top: 85px !important;
     margin: 0;
 }
-.slideshowTopnewsesTopArea h1{
+.headlines h1{
 max-width: 400px;
 height: auto;
 color: #fc4733;
@@ -481,6 +481,7 @@ font-family:"Montserrat-Bold" ;
 font-size: 30px;
 margin-left: 70px;
 margin-top: 20px;
+text-transform: capitalize;
 }
 .slideshowTopnewsesTopArea{
 position: relative;
@@ -568,3 +569,93 @@ border-radius: 0!important;
         margin-left: 80px;
         margin-bottom: 65px;
     }
+.FeaturedArea .headlines h1{
+    margin-left: 0!important;
+}
+.FeaturedAreaContent{
+    height: auto;
+
+}
+.FeaturedAreaContentColArea{
+    padding: 0!important;
+}
+.FeaturedAreaContentLeft{
+    height: 720px;
+    background-color: red;
+    padding: 0 !important;;
+    position: relative;
+}
+.FeaturedAreaContentFashonC{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.FeaturedAreaContentFashonOverlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.4;
+    z-index: 3;
+}
+.FeaturedAreaContentFashon >img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+.FeaturedAreaContentFashonSub{
+    position: absolute;
+    z-index: 4;
+    color: #fff;
+    left: 35px;
+    top: 395px;
+}
+.FeaturedAreaContentFashonCat{
+    background-color: #00bff3!important;
+    color: #fff!important;
+    border-radius: 0!important;
+    text-transform: uppercase;
+    font-family:"Montserrat-Light" ;
+    font-size: 12px;
+}
+.FeaturedAreaContentFashonSub >p{
+    font-family: "Montserrat-Bold";
+    font-size: 40px;
+    text-transform: uppercase;
+ 
+}
+.FeaturedAreaContentFashonSubMeta{
+    margin-left: 0;
+}
+
+.FeaturedAreaContentRight{
+    height: 720px;
+    background-color: #555555;
+    position: relative;
+    z-index: 10;
+    margin-left: 30px;
+}
+.FeaturedAreaContentRightL{
+    border: 1px solid red;
+    position: relative;
+    height: 310px;
+padding: 0!important;
+width: 100%;
+}
+.FeaturedAreaContentRightLSub{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.FeaturedAreaContentRightLSub > img{
+    width: 100%;
+    height: 220px;
+    position: absolute;
+    object-fit: cover;
+
+}
+.FeaturedAreaContentRightR{
+    border: 1px solid green;
+}
