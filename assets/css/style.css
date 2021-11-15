@@ -457,7 +457,7 @@ content: none!important;
 
 .TopNewses{
      padding: 0!important;
- 
+ margin: auto;
 }
 .TopNewses > .row{
 margin-left: 0!important;
@@ -486,6 +486,9 @@ text-transform: capitalize;
 .slideshowTopnewsesTopArea{
 position: relative;
 width: 100%;
+}
+.TopNewsesSlide{
+    margin: auto;
 }
 .slideshowTopnewsesTopArea::after{
     position: absolute;
@@ -569,8 +572,23 @@ border-radius: 0!important;
         margin-left: 80px;
         margin-bottom: 65px;
     }
-.FeaturedArea .headlines h1{
+    .FeaturedArea .row{
+        margin: 0!important;
+    }
+.featuredHead {
+        width: 100%;
+        padding: 0!important;
+    }
+    .featuredHead .headlines h1{
+        width: 100%!important;
+        padding: 0!important;
+        display: block;
+        margin-left: 0;
+    }
+
+.FeaturedArea .headlines {
     margin-left: 0!important;
+ 
 }
 .FeaturedAreaContent{
     height: auto;
