@@ -479,7 +479,7 @@ height: auto;
 color: #fc4733;
 font-family:"Montserrat-Bold" ;
 font-size: 30px;
-margin-left: 70px;
+margin-left: 385px;
 margin-top: 20px;
 text-transform: capitalize;
 }
@@ -494,7 +494,7 @@ width: 100%;
     position: absolute;
     height: 3px;
     width: 100%;
-    max-width: 940px;
+    max-width:  1180px;
     border-bottom: 3px solid #999999;
     height: 20px;
     bottom: 0;
@@ -505,7 +505,7 @@ width: 100%;
 .slideshowTopnewsesTopArea::before{
     position: absolute;
     height: 3px;
-    width: 70px;
+    width: 390px;
 border-top: 3px solid #999999;
 height: 20px;
 bottom: 0;
@@ -513,12 +513,19 @@ content: "";
 left: 0;
 top:36px;
 }
-
+.owl-item.active {
+  margin-right: 30;
+}
+.item {
+    background: rebeccapurple;
+    width: 240px!important;
+    height: 325px;
+}
 .OwlSlideshow{
   position: relative;
     height: 325px;
     width: 240px;
-    border: 1px solid;
+
 }
 .owlCat{
     position: absolute;
@@ -656,7 +663,7 @@ border-radius: 0!important;
     margin-left: 30px;
 }
 .FeaturedAreaContentRightL{
-    border: 1px solid red;
+
     position: relative;
     height: 310px;
 padding: 0!important;
@@ -674,6 +681,36 @@ width: 100%;
     object-fit: cover;
 
 }
+.FeaturedAreaContentRightLSub >p{
+    position: absolute;
+    top: 220px;
+    font-size: 18px;
+    font-family:"Montserrat-Bold" ;
+    text-transform: uppercase;
+}
+
+    .FeaturedAreaContentRightLmeta {
+        position: absolute;
+        top: 230px;
+        width: 100%;
+        display: flex;
+        margin-top:60px;
+        margin-left: 0;
+    }
+    FeaturedAreaContentRightR {
+        margin-left: 35px
+    ;
+    }
+    .FeaturedAreaContentRightLmeta li:last-child:after{
+        content:''!important;
+    }
+
+
+
+
+
+
+
 .FeaturedAreaContentRightR{
     border: 1px solid green;
 }
