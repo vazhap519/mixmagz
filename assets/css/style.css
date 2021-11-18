@@ -407,10 +407,10 @@ width: 100%;
     position: absolute;
     z-index: 1;
     height: 110px;
-   
+   list-style: none;
     width: 435px;
   left: 20px;
-  top: 130px;
+  top: 110px;
 }
 
 .healthContentDesc li a.healthcat{

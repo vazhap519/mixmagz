@@ -1,3 +1,25 @@
+@media (min-width: 300px) { 
+  .logoArea {
+    margin: 0 auto;
+    display: flex;
+}
+ul.socialArea {
+  text-align: center;
+}
+.TopNewsesContainerLeftContentArea{
+  left: 0;
+}
+.sportNewsArea,.photographyNewsArea,.health{
+margin-left: 0;
+}
+.leaderBoard >p{
+  color: #999;
+}
+.healthContentDesc li p a{
+  font-size: 12px;
+}
+}
+
 @media (min-width: 576px) { 
 
         
