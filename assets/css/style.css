@@ -478,7 +478,7 @@ padding: 0!important;
    width: 100%;
  margin-left: 0!important;
 padding: 0!important;
-
+text-transform: uppercase;
 }
 .TopNewses::before{
     position: absolute;
@@ -492,7 +492,7 @@ padding: 0!important;
     position: absolute;
     content: "";
     border:3px solid #9999;
-    width: 1185px;
+    width: 1135px;
   bottom: -158px;
   right: 0;
 }
