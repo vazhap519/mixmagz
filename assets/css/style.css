@@ -160,6 +160,7 @@ color: #fc4733;
      position: relative;
      padding: 0!important;
      margin: 0;
+     margin-right: 40px;
  }
 .TopNewsesContainerLeftContent{
     position: absolute;
@@ -257,7 +258,7 @@ padding-left: 15px;
     position: relative;
     overflow: hidden;
     padding: 0!important;
-
+margin-right: 45px;
 }
 
 
@@ -322,12 +323,13 @@ ul.sportNewsAreaContentDesc  li p a{
 
 
 .photographyNewsArea{
-    background-color: #a58667;
+
     height: 245px;
-    margin-left: 47px;
+ 
     width: 100%;
     position: relative;
     padding: 0!important;
+
 }
 
 .photographyNewsContent{
