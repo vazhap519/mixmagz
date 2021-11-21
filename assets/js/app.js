@@ -79,7 +79,7 @@ setInterval(HContLenUpdate,1000)
 
 $('.owl-carousel').owlCarousel({
     loop:true,
-    margin:15,
+    margin:30,
     responsiveClass:true,
     responsive:{
         0:{
@@ -87,13 +87,13 @@ $('.owl-carousel').owlCarousel({
             nav:true
         },
         600:{
-            items:2,
-            nav:true
+            items:3,
+            nav:false
         },
         1000:{
             items:4,
             nav:true,
-            loop:true
+            loop:false
         }
     }
 })
