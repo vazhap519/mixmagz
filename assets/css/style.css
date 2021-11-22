@@ -29,7 +29,7 @@
 }
 #wrapper{
     padding: 0;
-    overflow: hidden;
+   
     box-sizing: border-box;
     height: auto;
 }
@@ -145,388 +145,190 @@ color: #fc4733;
      font-family:"Montserrat-Medium" ;
      font-size: 13px;
  }
-
- /* .TopNewses > .container-fluid{
-     margin-left: 0!important;
-     margin-right: 0!important;
- } */
- .TopNewsesContainer{
-     height: auto;
-     margin-top: 60px;
-     padding: 0!important;
- }
- .TopNewsesContainer > .row{
-     margin: 0!important;
- }
-
- .TopNewsesContainerLeft{
-     height: 525px;
-     position: relative;
-     padding: 0!important;
-     margin: 0;
-     margin-right: 40px;
- }
-.TopNewsesContainerLeftContent{
-    position: absolute;
-    height: 100%;
-    background-color: red;
-    width: 100%;
-  background-image: url("../images/1.png");
-  background-position: center center;
-  background-repeat: no-repeat;
- display: none;
- background-size: cover;
-}
-.active{
-    display: block;
-   
-}
-
-
-.bgOverlay{
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    z-index: 1;
-    background-color: rgba(122, 105, 185, 0.4)
-}
-.TopNewsesContainerLeftContentArea{
-    width: 315px;
-    height: 270px;
-    position: relative;
-    z-index: 2;
-
-    top: 180px;
-    left:35px ;
-    padding: 0 !important;
-}
-.TopNewsesContainerLeftContentArea .BtnCat{
-    background-color: #00bff3;
-    border-radius:0!important;
-    color: #fff;
+/***
+======================================================================================
+                                    End Header
+======================================================================================
+***/
+.category{
     font-family:"Montserrat-Light" ;
-    font-size: 12px;
-    margin-left: 15px;
-    text-decoration: none;
+    color: #f1f1f1!important;
+    padding: 13px;
+    /* position: absolute; */
     text-transform: uppercase;
+    border-radius: 0!important;
 }
-.TopNewsesContainerLeftContentArea .BtnCat:hover{
-    color: #fff;
-
-}
-.TopNewsesContainerLeftContentArea >p{
-    font-size: 30px;
-    color: #fff;
-    font-family: "Montserrat-Bold";
-padding-left: 15px;
-    margin-top: 25px;
-   
-}
-
 .meta{
-    display: inline-block;
-    padding: 0;
     font-family:"Montserrat-Light" ;
     font-size: 12px;
-    margin-left: 25px;
+    list-style: none;
+    display: inline-block;
+    text-transform: capitalize;
 }
 .meta li{
     display: inline-block;
-    padding-left: 10px;
+    margin-left: 25px;
 }
 .meta li:first-child{
-    padding-left: 0px;
+    margin-left: 0;
+}
+.meta li:last-child::after{
+    content: none;
+    padding-left: 0;
+    padding-right: 0;
 }
 .meta li::after{
     content: "|";
-    color: #ccc;
-    padding-left: 10px;
+    padding-left: 15px;
+    padding-right: 10px;
+    color: #f1f1f1;
 }
 .meta li a{
-    font-family:"Montserrat-Light" ;
-    font-size: 12px;
-    color:#ccc;
-    text-transform: capitalize;
+    color: #f1f1f1;
 }
 
+ #main{
 
- .TopNewsesContainerRightArea{
-     height: auto;
-     padding: 0!important;
- }
-.sportNewsArea{
-    background-color: #002157;
-    height: 245px;
-    width: 100%;
-    margin-left: 35px;
-    position: relative;
-    overflow: hidden;
-    padding: 0!important;
-margin-right: 45px;
-}
-
-
-.sportNewsAreaContent{
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    padding: 0;
-}
-.sportNewsAreaContent > img{
-    position: absolute;
-    z-index: 0;
-    height: 100%;
-    width: 100%;
-}
-
-ul.sportNewsAreaContentDesc {
-    position: absolute;
-    z-index: 4;
-    color: #fff;
-    top: 95px;
-    height: 130px;
-    width: 185px;
-    left: 20px;
-    list-style: none;
-}
-
-ul.sportNewsAreaContentDesc  li .sportNewsAreaCat{
-    font-family:"Montserrat-Light" ;
-    text-transform: uppercase;
-    color: #fff;
-    font-size: 12px;
-    text-decoration: none;
-    background-color: #f5dc38;
-    border-radius: 0!important;
-}
-ul.sportNewsAreaContentDesc  li .sportNewsAreaCat:hover{
-    color: #fff;
-    text-decoration: none;
-
-}
-ul.sportNewsAreaContentDesc  li p{
-    margin-top: 10px;
-}
-ul.sportNewsAreaContentDesc  li p a{
-    font-family:"Montserrat-Bold" ;
-    font-size: 16px;
-    color: #fff;
-}
-
-.SportsMeta {
-    font-size: 10px;
-    position: relative;
-    top: 20px;
-    margin-left: 0;
-    font-family: "Montserrat-Regular";
-}
-
-.SportsMeta li:last-child::after{
-    content: ' '!important;
-}
-
-
-.photographyNewsArea{
-
-    height: 245px;
- 
-    width: 100%;
-    position: relative;
-    padding: 0!important;
-
-}
-
-.photographyNewsContent{
-    position: absolute;
-    height: 100%;
-    width: 100%;
-}
-.photographyNewsContent > img{
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    z-index: 0;
-
-}
-.photographyNewsContentDesc{
-    position: absolute;
-    z-index: 1;
-    list-style: none;
-    top: 90px;
-    left: 35px;
-}
-
-.photographyNewsContentDesc li a.photographyNewsCat{
-    font-family:"Montserrat-Light" ;
-    text-transform: uppercase;
-    color: #fff;
-    font-size: 12px;
-    text-decoration: none;
-    background-color: #fc4733;
-    border-radius: 0!important;
-}
-.photographyNewsContentDesc li p{
-    margin-top: 10px;
-        padding: 0!important;
-        margin-right: 15px;
-    
-}
-.photographyNewsContentDesc li p a{
-font-family:"Montserrat-Bold" ;
-font-size: 19px;
-color: #fff;
-}
-
-.photographyNewsMeta{
-    font-size: 10px;
-    position: relative;
-    top: -10px;
-    margin-left: 0;
-    font-family: "Montserrat-Regular";
-}
-.photographyNewsMeta li:last-child::after{
-    content: none;
-}
-
-.health{
-    height: 240px;
-
-    margin-left: 34px;
-    margin-top: 40px;
-    padding-right: 0!important;
-    padding-left: 0!important;
-
-}
-.healthContent{
-    width: 100%;
-    height: 100%;
-    background-color: green;
-    position: absolute;
-}
-.healthContent >img{
-height: 100%;
-position: absolute;
-z-index: 0;
-width: 100%;
-}
-.healthContentDesc{
-    position: absolute;
-    z-index: 1;
-    height: 110px;
-   list-style: none;
-    width: 435px;
-  left: 20px;
-  top: 110px;
-}
-
-.healthContentDesc li a.healthcat{
-text-transform: uppercase;
-color: #fff;
-background-color: #39b54a;
-}
-.healthContentDesc li p{
-    margin: 0!important;
-    margin-top: 14px!important;
-}
-.healthContentDesc li p a{
-    font-family:"Montserrat-Bold" ;
-    font-size: 17px;
-    color: #fff;
-    text-transform: uppercase;
-    }
-    
-    ul.healthMeta {
-        margin-left: 0;
-        margin-top: 15px
-    ;
-    }
-    .healthMeta li:last-child::after{
-content: none!important;
-    }
-
-    .leaderBoard{
-        border: 2px solid #e9e9e9;
-        margin-top: 65px;
-        height: auto;
-    }
-    .leaderBoard >p{
-       padding-top: 35px;
-    padding-bottom: 35px;
-    margin: auto;
-    width: 100%;
-    text-align: center;
-    font-size: 29px;
-    font-family:"Montserrat-ExtraLight" ;
-    text-transform: uppercase;
-    color: #e9e9e9;
-    }
-
-.headlines h1{
-max-width: 400px;
 height: auto;
-color: #fc4733;
-font-family:"Montserrat-Bold" ;
-font-size: 30px;
-margin-left: 385px;
-margin-top: 20px;
-text-transform: capitalize;
+width: 100%;
+
+ }
+ #topArea{
+     
+     height: auto;
+width: 100%;
+max-width: 1050px;
+margin: auto;
+ }
+
+ .topAreaLeft{
+
+     height: 525px;
+     position: relative;
+     padding-left: 0!important;
+ }
+ .topAreaLeftContent{
+    max-width: 480px;
+    width: 100%;
+
+    height: 525px;
+    position: absolute;
+ }
+ .topAreaLeftContent >img{
+     position: absolute;
+     object-fit: cover;
+     width: 100%;
+     height: 100%;
+ }
+ .topAreaLeftContentOverlay{
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     background-color: #5d2282;
+     z-index: 1;
+     opacity: 0.4;
+ }
+ .topAreaLeftContentArticle{
+     position: absolute;
+
+     z-index: 1;
+     left: 35px;
+     top: 210px;
+     height: 270px;
+ }
+ .buisnessCat{
+background-color: #00bff3!important;
+}
+.topAreaLeftContentArticle >p a{
+    font-family:"Montserrat-Bold" ;
+    font-size: 30px;
+    padding-right: 15px;
+    text-transform: uppercase;
+    color:#fff
+}
+.topAreaRightTop{
+    background-color: purple;
+    position: relative;
+    height: 500px;
+}
+.sportsArea{
+    position: absolute;
+    height: 240px;
+    background-color: red;
+    padding: 0!important;
+}
+.sportsAreaContent{
+    width: 100%;
+    height: 100%;
+   
+    position: absolute;
+}
+.sportsAreaContent >img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
 }
 
-.TopNewsesAreaHead{
-padding: 0!important;
-    height: auto;
-    width: 100%;
-    margin-top: 90px;
+.sportsAreaContentArticle{
+    position: absolute;
+    z-index: 1;
+    top: 85px;
+    left: 15px;
+}
+.sportsAreaContentArticle .sportCat{
+    background-color: #f5dc38;
+}
+.sportsAreaContentArticle p{
+    margin-right: 45px;
+    margin-bottom: 0!important;
+}
+.sportsAreaContentArticle p a{
+    font-size: 18px;
+    font-family:"Montserrat-Bold" ;
+    color: #f1f1f1;
+  
+    text-transform: uppercase;
+}
+
+.phtothographyArea{
+    height: 240px;
+    position: relative;
+   padding-right: 0!important;
+}
+
+.phtothographyAreaContent {
+    height: 100%;
     position: relative;
 }
-
-.TopNewsesAreaHead >h1{
-   width: 100%;
-   margin-left: 370px;
-padding: 0!important;
-text-transform: uppercase;
-}
-.TopNewses::before{
+.phtothographyAreaContent >img{
+    width: 100%;
+    height: 100%;
     position: absolute;
-    content: "";
-    border:3px solid #9999;
-    width: 370px;
-    margin-top: 125px;
-  left: 0;
 }
-.TopNewses::after{
+.phtothographyAreaContentArticle{
     position: absolute;
-    content: "";
-    border:3px solid #9999;
-    width: 1150px;
-  bottom: -158px;
-  right: 0;
+    top: 85px;
+    left: 15px;
+    right: 15px;
+}
+.phtothographyCat{
+    background-color: #fc4733!important;
+}
+.phtothographyAreaContentArticle p{
+    margin-bottom: 0 !important; ;
+}
+.phtothographyAreaContentArticle p a{
+    font-size: 18px;
+    font-family:"Montserrat-Bold" ;
+    color: #f1f1f1;
+  
+    text-transform: uppercase;
 }
 
 
-.TopNewsCarousel  {
-    margin-top: 55px;
-    margin-left:0!important;
-}
-    .owl-carousel {
-margin: auto!important;
-}
 
-.TopNewsCarouselContent{
-    height: 325px;
-    background-color: #a58667;
-}
-.owl-nav {
-    background: red;
-    position: absolute;
-    right: 65px;
-    top: -110px;
-}
 
-.owl-nav button >span {
-    font-size: 35px;
-    padding: 10px;
-}
 
 
 
