@@ -408,55 +408,50 @@ position: relative;
 
 
  .headlines {
-    position: relative;
+
     text-transform: uppercase;
     font-family:"Montserrat-Bold" ;
     font-size: 30px;
     color: #fc4733;
-   
-    padding: 0;
-    margin: 0;
-   width: auto;
-   left: 75px;
+    padding: 0!important;
+    margin: 0!important;
+   width: 100%;
+   background-color: green;
+
 }
+
 .headlines h2{
-    display: block;
-    width: 100%;
-}
-
-.headlinesHleft,.headlinesHright{
-    position: relative;
+position: relative;
 width: 100%;
+
 }
+.headlines h2::before{
+    content: "";
+    width: 22.5vw;
+    height: 10px;
+    border-top: 10px solid red;
+    position: absolute;
+    top: 15px;
 
+}
+.headlines h2::after{
+    content: "";
+    width: 85vw;
+    height: 10px;
+    border-top: 10px solid red;
+    position: absolute;
+    top: 15px;
 
-    .headlinesHleft::before {
-        content: "";
-        border-top: 5px solid red;
-        height: 5px;
-        width: 80px;
-        left: -76px;
-        position: absolute;
-        top: 15px;
-    }
-    .headlinesHright::before{
-        content: "";
-        border-top: 5px solid red;
-        height: 5px;
-        width: 77.5%;
-        right: 0;
-        position: absolute;
-        top: 15px;
-
-    }
-
+}
  .headlinesHsep{
     width: auto;
     height: auto;
     position: relative;
 
 }
-
+.headlinesHleft{
+    margin-left: 430px;
+}
 .headlinesHsep::after{
     content:"/";
     width: 5px;
