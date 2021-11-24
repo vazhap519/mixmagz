@@ -73,9 +73,9 @@ function PhotoCarouselUpdate(){
 }
 
 
-setInterval(function(){
-    PhotoCarouselUpdate()
-},1000)
+ setInterval(function(){
+     PhotoCarouselUpdate()
+ },1000)
 
 //END PHOTOGRAPHY CAROUSEL
 
