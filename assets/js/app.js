@@ -1,139 +1,150 @@
 
-var TopLeftSlideContainer=document.querySelectorAll(".topAreaLeftContent");
-var TopLeftSlideContainerCounter=0;
+// var TopLeftSlideContainer=document.querySelectorAll(".topAreaLeftContent");
+// var TopLeftSlideContainerCounter=0;
 
-function LeftSlideLen(){
-   for (let index = 0; index < TopLeftSlideContainer.length; index++) {
-    TopLeftSlideContainer[index].style.display="none";
+// function LeftSlideLen(){
+//    for (let index = 0; index < TopLeftSlideContainer.length; index++) {
+//     TopLeftSlideContainer[index].style.display="none";
        
-   }
+//    }
   
-}
+// }
 
-function updateLeftSlide(){
-    LeftSlideLen();
-    console.log(TopLeftSlideContainerCounter++)
-    if(TopLeftSlideContainerCounter>TopLeftSlideContainer.length-1){
-        TopLeftSlideContainerCounter=0;
-    }
+// function updateLeftSlide(){
+//     LeftSlideLen();
+//     console.log(TopLeftSlideContainerCounter++)
+//     if(TopLeftSlideContainerCounter>TopLeftSlideContainer.length-1){
+//         TopLeftSlideContainerCounter=0;
+//     }
     
        
-TopLeftSlideContainer[TopLeftSlideContainerCounter].style.display="block";
+// TopLeftSlideContainer[TopLeftSlideContainerCounter].style.display="block";
      
     
   
-}
+// }
 
 
-setInterval(function(){
-    updateLeftSlide()
-},1000)
+// setInterval(function(){
+//     updateLeftSlide()
+// },1000)
 //END LEFT AREA CAROUSEL
 
 
-var TopRightSlideContainerSportCount=0,
-    TopRightSlideContainerSport=document.querySelectorAll(".sportsAreaContent");
-    function SportCarousel(){
-        for (let index = 0; index < TopRightSlideContainerSport.length; index++) {
-            TopRightSlideContainerSport[index].style.display="none";
+// var TopRightSlideContainerSportCount=0,
+//     TopRightSlideContainerSport=document.querySelectorAll(".sportsAreaContent");
+//     function SportCarousel(){
+//         for (let index = 0; index < TopRightSlideContainerSport.length; index++) {
+//             TopRightSlideContainerSport[index].style.display="none";
             
-        }
-    }
-function SportCarouselUpdate(){
-    SportCarousel()
-    TopRightSlideContainerSportCount++
-    if(TopRightSlideContainerSportCount>TopRightSlideContainerSport.length-1){
-        TopRightSlideContainerSportCount=0;
-    }
-    TopRightSlideContainerSport[TopRightSlideContainerSportCount].style.display="block"
-}
+//         }
+//     }
+// function SportCarouselUpdate(){
+//     SportCarousel()
+//     TopRightSlideContainerSportCount++
+//     if(TopRightSlideContainerSportCount>TopRightSlideContainerSport.length-1){
+//         TopRightSlideContainerSportCount=0;
+//     }
+//     TopRightSlideContainerSport[TopRightSlideContainerSportCount].style.display="block"
+// }
 
 
-setInterval(function(){
-    SportCarouselUpdate()
-},1000)
+// setInterval(function(){
+//     SportCarouselUpdate()
+// },1000)
 //END SPORT NEWS CAROUSEL
 
 
-var TopRightSlideContainerphotoCount=0,
-    TopRightSlideContainerPhoto=document.querySelectorAll(".phtothographyAreaContent");
-    function PhotoCarousel(){
-     for (let index = 0; index < TopRightSlideContainerPhoto.length; index++) {
-        TopRightSlideContainerPhoto[index].style.display="none";
+// var TopRightSlideContainerphotoCount=0,
+//     TopRightSlideContainerPhoto=document.querySelectorAll(".phtothographyAreaContent");
+//     function PhotoCarousel(){
+//      for (let index = 0; index < TopRightSlideContainerPhoto.length; index++) {
+//         TopRightSlideContainerPhoto[index].style.display="none";
          
-     }
-    }
-function PhotoCarouselUpdate(){
-    PhotoCarousel()
-    TopRightSlideContainerphotoCount++;
-    if(TopRightSlideContainerphotoCount>TopRightSlideContainerPhoto.length-1){
-        TopRightSlideContainerphotoCount=0
-    }
-    TopRightSlideContainerPhoto[TopRightSlideContainerphotoCount].style.display="block"
-}
+//      }
+//     }
+// function PhotoCarouselUpdate(){
+//     PhotoCarousel()
+//     TopRightSlideContainerphotoCount++;
+//     if(TopRightSlideContainerphotoCount>TopRightSlideContainerPhoto.length-1){
+//         TopRightSlideContainerphotoCount=0
+//     }
+//     TopRightSlideContainerPhoto[TopRightSlideContainerphotoCount].style.display="block"
+// }
 
 
- setInterval(function(){
-     PhotoCarouselUpdate()
- },1000)
+//  setInterval(function(){
+//      PhotoCarouselUpdate()
+//  },1000)
 
-//END PHOTOGRAPHY CAROUSEL
+// //END PHOTOGRAPHY CAROUSEL
 
-var TopRightSlideContainerHealthCount=0,
-    TopRightSlideContainerHealth=document.querySelectorAll(".HealthContent");
-    function HealthCarousel(){
-     for (let index = 0; index < TopRightSlideContainerHealth.length; index++) {
-        TopRightSlideContainerHealth[index].style.display="none";
+// var TopRightSlideContainerHealthCount=0,
+//     TopRightSlideContainerHealth=document.querySelectorAll(".HealthContent");
+//     function HealthCarousel(){
+//      for (let index = 0; index < TopRightSlideContainerHealth.length; index++) {
+//         TopRightSlideContainerHealth[index].style.display="none";
          
-     }
-    }
-function HealthCarouselUpdate(){
-    HealthCarousel()
-    TopRightSlideContainerHealthCount++;
-    if(TopRightSlideContainerHealthCount>TopRightSlideContainerHealth.length-1){
-        TopRightSlideContainerHealthCount=0
-    }
-    TopRightSlideContainerHealth[TopRightSlideContainerHealthCount].style.display="block"
-}
+//      }
+//     }
+// function HealthCarouselUpdate(){
+//     HealthCarousel()
+//     TopRightSlideContainerHealthCount++;
+//     if(TopRightSlideContainerHealthCount>TopRightSlideContainerHealth.length-1){
+//         TopRightSlideContainerHealthCount=0
+//     }
+//     TopRightSlideContainerHealth[TopRightSlideContainerHealthCount].style.display="block"
+// }
 
 
-setInterval(function(){
-    HealthCarouselUpdate()
-},1000)
+// setInterval(function(){
+//     HealthCarouselUpdate()
+// },1000)
 
 //END HEALTH CAROUSEL
 
 
 
+const TopNewsesItems=[...document.querySelectorAll(".TopNewsesCarousel")];
 
+const prev=[...document.querySelectorAll(".left")];
+const next=[...document.querySelectorAll(".right")];
 
-
-
-
-
-
-
-
-
-
-
-$('.owl-carousel').owlCarousel({
-    loop:true,
-    margin:15,
-    responsiveClass:true,
-    responsive:{
-        0:{
-            items:1,
-            nav:true
-        },
-        600:{
-            items:2,
-            nav:true
-        },
-        1000:{
-            items:4,
-            nav:true,
-            loop:true
-        }
-    }
+TopNewsesItems.forEach(function(items,index){
+var Defin=items.getBoundingClientRect();
+var DefWidth=Defin.width;
+next[index].addEventListener("click",function(){
+    items.scrollLeft+=DefWidth;
 })
+prev[index].addEventListener("click",function(){
+    items.scrollLeft-=DefWidth;
+})
+})
+
+
+
+
+
+
+
+
+// $('.owl-carousel').owlCarousel({
+//     loop:true,
+//     margin:15,
+//     responsiveClass:true,
+//     responsive:{
+//         0:{
+//             items:1,
+//             nav:true
+//         },
+//         600:{
+//             items:2,
+//             nav:true
+//         },
+//         1000:{
+//             items:4,
+//             nav:true,
+//             loop:true
+//         }
+//     }
+// })

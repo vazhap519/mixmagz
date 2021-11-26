@@ -1,0 +1,163 @@
+.newses{
+     margin-top: 60px;
+max-width: 1050px;
+width: 100%;
+margin: 60px auto;
+overflow: hidden;
+height: auto;
+}
+.newsArea{
+  position: relative;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: auto;
+}
+
+/***
+========================================================
+ALL IN STYLES
+=========================================================
+***/
+.BuisnessNews{
+    width: 500px;
+    height: 525px;
+    position: relative; 
+    background-color: crimson;
+}
+
+.BuisnessNews .BuisnessNewsContent{
+position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.BuisnessNewsContentOverlay{
+    width: 100%;
+    height: 100%;
+ position: absolute;
+    background-color: indigo;
+    z-index: 1;
+    opacity: 0.3;
+}
+.BuisnessNews .BuisnessNewsContent >img{
+width: 100%;
+height: 100%;
+position: absolute;
+object-fit: cover;
+}
+
+.BuisnessNewsArticle{
+    width: 310px;
+    height: 270px;
+    /* position: absolute; */
+    top: 205px;
+ left: 35px;
+    z-index: 2;
+}
+.BuisnessNewsArticle .BuisnessNewsCat{
+    background-color: #00bff3!important;
+}
+.BuisnessNewsArticleP{
+    font-size: 30px;
+}
+/***
+========================================================
+BUISNESS STYLES
+=========================================================
+***/
+
+.newsAreaRight{
+    width: 525px;
+    height: auto;
+ display: flex;
+ flex-direction: column;
+position: relative;
+
+}
+/***
+========================================================
+NEWSAREA RIGHT STYLES
+=========================================================
+***/
+.newsAreaRightTop{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+ position: relative;
+
+}
+/***
+========================================================
+NEWSAREA TOP STYLES
+=========================================================
+***/
+.sportNewsSlide{
+    position: relative;
+    height: 245px;
+    width: 245px;
+}
+.sportNews{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+ 
+}
+
+
+.sportCat{
+    background-color: #f5dc38!important;
+}
+/***
+========================================================
+SPORT NEWS STYLES
+=========================================================
+***/
+
+.PhotographyNewsSlide{
+    position: relative;
+    height: 245px;
+    width: 245px;
+
+}
+
+.PhotographyNews{
+    position: absolute;
+width: 100%;
+height: 100%;
+}
+.PhotographyNews .PhotographyNewsArticle{
+    top: 90px;
+    left: 15px;
+}
+.PhotographyNews .PhotographyNewsCat{
+    font-size: 18px;
+    background-color: #fc4733;
+}
+
+/***
+========================================================
+PHOTOGRAPHY NEWS STYLES
+=========================================================
+***/
+.healthSlide{
+    width: 525px;
+    height: 240px;
+    position: relative;
+    background-color: thistle;
+    top: 40px;
+}
+.healthContent{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.healthCat{
+    background-color: #39b54a!important;
+}
+/***
+========================================================
+HEALTH NEWS STYLES
+=========================================================
+***/

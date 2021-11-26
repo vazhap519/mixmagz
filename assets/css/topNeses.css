@@ -1,0 +1,104 @@
+#TopNewses{
+    width: 100%;
+    height: 200px;
+    
+    position: relative;
+
+}
+.header{
+position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header >h2{
+    text-align: center;
+    width: 100%;
+    max-width: 395px;
+    display: inline-block;
+}
+.beforeLine {
+    width: 100%;
+    max-width: 420px;
+    height: 2px;
+    background: #ccc;
+  margin-top: 15px;
+
+}
+.afterLine{
+    width: 100%;
+  margin-top: 15px;
+    height: 2px;
+    background: #ccc;
+  
+}
+/***
+==================================================
+TOPNEWSES HEADERS END
+==================================================
+***/
+.TopNewsesCarouselBtns {
+    list-style: none;
+    display: flex;
+    position: absolute;
+    width: 100%;
+    left: 73%;
+    float: right;
+
+
+}
+.TopNewsesCarouselBtns li{
+    border: 1px solid;
+    padding: 10px;
+  margin-left: 10px;
+  
+}
+
+
+
+.TopNewsesCarousel{
+    width: 1050px;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    list-style: none;
+    overflow: hidden;
+    background-color: grey;
+    margin-bottom: 60px;
+}
+.TopNewsesCarousel li.TopNewsesCarouselItems{
+    width: 100%;
+    min-width: 240px;
+   display: flex;
+   flex-direction: column;
+    height: 330px;
+  margin-right: 45px;
+    position: relative;
+   
+}
+.TopNewsesCarousel li:first-child{
+    margin-left: 0;
+}
+.TopNewsesCarousel li .TopNewsesCarouselItemsImg{
+position: absolute;
+height: 220px;
+}
+.TopNewsesCarouselItemsCat {
+    position: absolute;
+    top: 183px;
+    background-color: #000!important;
+}
+
+.TopNewsesCarouselItemsArticle {
+        width: 100%;
+        left: 0;
+        top: 240px;
+    }
+.TopNewsesCarouselItemsMeta{
+display: flex;
+}
+.TopNewsesCarouselItemsMeta li{
+    
+}
