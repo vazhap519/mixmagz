@@ -55,50 +55,56 @@ TOPNEWSES HEADERS END
   
 }
 
-
-
-.TopNewsesCarousel{
+.topTopNewsesCarouselArea {
     width: 1050px;
     max-width: 100%;
-    display: flex;
-    justify-content: space-around;
-    margin: auto;
-    list-style: none;
+    height: auto;
     overflow: hidden;
-    background-color: grey;
-    margin-bottom: 60px;
-}
-.TopNewsesCarousel li.TopNewsesCarouselItems{
-    width: 100%;
-    min-width: 240px;
-   display: flex;
-   flex-direction: column;
-    height: 330px;
-  margin-right: 45px;
-    position: relative;
-   
-}
-.TopNewsesCarousel li:first-child{
-    margin-left: 0;
-}
-.TopNewsesCarousel li .TopNewsesCarouselItemsImg{
-position: absolute;
-height: 220px;
-}
-.TopNewsesCarouselItemsCat {
-    position: absolute;
-    top: 183px;
-    background-color: #000!important;
-}
+    margin: auto;
 
-.TopNewsesCarouselItemsArticle {
-        width: 100%;
-        left: 0;
-        top: 240px;
-    }
-.TopNewsesCarouselItemsMeta{
-display: flex;
 }
-.TopNewsesCarouselItemsMeta li{
-    
+ul.TopNewsesCarousel {
+    list-style: none;
+    overflow-x:auto;
+    display: flex;
+    -webkit-overflow-scrolling: touch;
+  
+ position: relative;
+}
+ul.TopNewsesCarousel::-webkit-scrollbar {
+    display: none;
+}
+.TopNewsesCarouselItems {
+    margin-right: 30px;
+    position: relative;
+    height: 325px;
+    width: 240px;
+    background-color: blue;
+}
+.TopNewsesCarouselItemsArticle{
+    position: absolute;
+
+}
+a.btn.category.sportCat.TopNewsesCarouselItemsCat {
+    top: 185px;
+    background-color: #000!important;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+
+}
+.TopNewsesCarouselItemsArticle{
+    font-family:"Montserrat-Bold" ;
+    top: 240px;
+    font-size: 18px;
+    left: 0;
+
+}
+img.TopNewsesCarouselItemsImg {
+    width: 240px;
+    object-fit: contain;
+}
+ul.meta.TopNewsesCarouselItemsMeta {
+
+    top: 307px;
 }
