@@ -1,7 +1,5 @@
 #FeaturedNewsArea{
-   
     height: 965px;
-    
 }
 .FeaturedNewsArea_header{
     width: 100%;
@@ -107,9 +105,6 @@ li.fashionMeta {
     margin-top: 35px;
 }
 
-
-
-
 .FeaturedNewsAreaPostsArea{
     width: 100%;
     max-width: 535px;
@@ -119,14 +114,6 @@ li.fashionMeta {
     justify-content: space-between;
     flex-wrap: wrap;
 }
-
-
-
-
-
-
-
-
 
 .FeaturedNewsAreaPostsAreas{
     width: 255px;
