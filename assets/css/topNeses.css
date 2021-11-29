@@ -67,7 +67,7 @@ ul.TopNewsesCarousel {
     list-style: none;
     overflow-x:auto;
     display: flex;
-    -webkit-overflow-scrolling: touch;
+     -webkit-overflow-scrolling: touch; 
   
  position: relative;
 }
