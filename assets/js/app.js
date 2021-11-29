@@ -6,7 +6,6 @@ function LeftSlideLen(){
     BuisnessSlideContainer[index].style.display="none"; 
    }
 }
-
 function updateLeftSlide(){
     LeftSlideLen();
          BuisnessSlideContainerCounter++
@@ -15,14 +14,10 @@ function updateLeftSlide(){
     } 
         BuisnessSlideContainer[BuisnessSlideContainerCounter].style.display="block";
 }
-
-
 setInterval(function(){
     updateLeftSlide()
 },1000)
-
-
-
+//END BUISNESS CAROUSEL
 var SportCount=0,
     ContainerSportNews=document.querySelectorAll(".sportNews");
   
@@ -40,14 +35,10 @@ function SportCarouselUpdate(){
     }
     ContainerSportNews[SportCount].style.display="block"
 }
-
-
 setInterval(function(){
     SportCarouselUpdate()
 },1000)
-
-
-
+//END SPORT CAROUSEL
 var photoCount=0,
     ContainerPhoto=document.querySelectorAll(".PhotographyNews");
     function PhotoCarousel(){
@@ -64,12 +55,9 @@ function PhotoCarouselUpdate(){
     }
     ContainerPhoto[photoCount].style.display="block"
 }
-
-
  setInterval(function(){
      PhotoCarouselUpdate()
  },1000)
-
 //END PHOTOGRAPHY CAROUSEL
 
 var ContainerHealthCount=0,
@@ -89,22 +77,13 @@ function HealthCarouselUpdate(){
     }
     ContainerHealth[ContainerHealthCount].style.display="block"
 }
-
-
 setInterval(function(){
     HealthCarouselUpdate()
 },1000)
-
 //END HEALTH CAROUSEL
-
-
-
 let TopNewsesCarouselItems=document.querySelectorAll(".TopNewsesCarouselItems");
-
 let TopNewsesCarousel=document.querySelector(".TopNewsesCarousel");
-
 let LeftArrow=document.querySelector(".left")
-
 let RightArrow=document.querySelector(".right")
 LeftArrow.addEventListener("click",()=>{
     TopNewsesCarousel.scrollLeft-=125;
@@ -112,7 +91,6 @@ LeftArrow.addEventListener("click",()=>{
 RightArrow.addEventListener("click",()=>{
     TopNewsesCarousel.scrollLeft+=125;
 })
-
 const max=TopNewsesCarousel.scrollWidth-TopNewsesCarousel.clientWidth;
 function Autoplay(){
     if(TopNewsesCarousel.scrollLeft>(max-1)){
@@ -122,7 +100,6 @@ function Autoplay(){
     }
 }
 let play=setInterval(Autoplay,50)
-
 for(var i=0;i<TopNewsesCarouselItems.length;i++){
     TopNewsesCarouselItems[i].addEventListener("mouseover",()=>{
         clearInterval(play)
@@ -131,3 +108,6 @@ for(var i=0;i<TopNewsesCarouselItems.length;i++){
         return play=setInterval(Autoplay,50)
     })
 }
+//END SCROLL CAROUSEL
+
+
