@@ -1,0 +1,11 @@
+@import "TrendingNewsCarousel.css";
+@import "TrendingNewsesAreaWigets.css";
+@import"TrendingNewsesBottomArea.css";
+#TrendingArea{
+    max-width: 100%;
+    width: 1125px;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-wrap:nowrap
+}

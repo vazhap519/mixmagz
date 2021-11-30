@@ -1,0 +1,23 @@
+@import "trendingBanner.css";
+.TrendingNewsesAreaWigets{
+    border-left: 2px solid #ccc;
+    width: 460px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    border-right: 2px solid #ccc;
+}
+.TopStoryWigetArea{
+    height: 670px;
+    width: 100%;
+    border-bottom: 1px solid;
+}
+.TopStoryWigetAreaContent{
+    width: 310px;
+    height: 550px;
+    margin-top: 60px;
+    margin-left: 45px;
+}
+.TopStoryWigetArea .headlines{
+   
+}

@@ -5,10 +5,11 @@
 @import "banner.css";
 @import "topNeses.css";
 @import "FeaturedNewsArea.css";
+@import "trendingArea.css";
 
 #main{
 width: 100%;
 height: auto;
- overflow: hidden;
+overflow: hidden;
 }
 

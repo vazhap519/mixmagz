@@ -30,7 +30,7 @@
     font-family:"Montserrat-Light" ;
     color: #f1f1f1!important;
     padding: 13px;
-    /* position: absolute; */
+
     text-transform: uppercase;
     border-radius: 0!important;
 }
@@ -67,6 +67,10 @@
     font-size: 30px;
     color: #fc4733;
     text-transform: uppercase;
+}
+.headlines:hover{
+    color: #fc4733;
+    text-decoration: none;
 }
 
 

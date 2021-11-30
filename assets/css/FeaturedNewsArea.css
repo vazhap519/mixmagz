@@ -1,11 +1,11 @@
 #FeaturedNewsArea{
     height: 965px;
+    border-bottom: 2px solid #ccc;
 }
 .FeaturedNewsArea_header{
     width: 100%;
     max-width: 1050px;
     height: 145px;
-  
     margin: auto;
     position: relative;
 }
