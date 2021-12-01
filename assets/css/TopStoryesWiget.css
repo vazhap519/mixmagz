@@ -1,0 +1,84 @@
+.TopStoryWigetArea{
+    height: 670px;
+    width: 100%;
+    border-bottom: 1px solid;
+}
+.TopStoryWigetAreaContent{
+    width: 310px;
+    height: 550px;
+    margin-top: 60px;
+    margin-left: 45px;
+}
+
+.TopStoriesWgetContent{
+    position: relative;
+    width: 305px; 
+    height: 485px;
+  
+    margin-top: 40px;
+}
+
+.TopStoriesWgetContentPosts{
+    height: 380px;
+    width: 305px;
+   
+    position: absolute;
+}
+.TopStoriesWgetContentPosts >img{
+    width: 100%;
+    height: 230px;
+    position: absolute;
+    z-index: 0;
+}
+.TopStoryCat{
+    position: absolute;
+    z-index: 1;
+    background-color: #fc4733!important;
+    top: 192px;
+}
+.TopStoriesWgetContentPosts article{
+    position: absolute;
+    top: 260px;
+}
+.TopStoriesWgetContentPosts article p a {
+font-size: 22px!important;
+color: #000!important;
+}
+.TopStoryesMeta{
+    top: 100px!important;
+}
+.TopStoriesWgetButtons {
+    position: absolute;
+    background: #000;
+    top: 419px;
+display: flex;
+justify-content: space-around;
+margin: auto;
+width: 305px;
+
+}
+.TopStoriesWgetButtons .btn{
+padding-top: 15px;
+padding-bottom: 15px;
+text-align: center;
+font-size: 12px;
+font-family:"Montserrat-Bold" ;
+text-transform: uppercase;
+color: #fff;
+border-radius: 0%!important;
+outline: none!important;
+box-shadow: none!important;
+}
+.TopStoriesWgetButtons button:hover{
+    background-color: #555555!important;
+    color: #fff;
+}
+.TopStoriesWgetButtons button:active{
+    outline: none!important;
+}
+
+/***
+============================================================================================================
+TOP WIGETS AREA END
+============================================================================================================
+***/

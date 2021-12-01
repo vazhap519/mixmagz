@@ -68,15 +68,21 @@ TOPNEWSES HEADERS END
 }
 ul.TopNewsesCarousel {
     list-style: none;
-    overflow-x:auto;
+    overflow-x:hidden;
     display: flex;
-     -webkit-overflow-scrolling: touch; 
-  
+     -webkit-overflow-scrolling: touch;
+    -moz-overflow-scrolling: touch;
+    overflow-scrolling: touch;
+    scrollbar-base-color: #1b1e21;
  position: relative;
 }
 ul.TopNewsesCarousel::-webkit-scrollbar {
     display: none;
 }
+ul.TopNewsesCarousel::-moz-scrollbar{
+    display: none!important;
+}
+
 .TopNewsesCarouselItems {
     margin-right: 30px;
     position: relative;
@@ -94,7 +100,7 @@ a.btn.category.sportCat.TopNewsesCarouselItemsCat {
 
 }
 .TopNewsesCarouselItemsArticle{
-    font-family:"Montserrat-Bold" ;
+    font-family:"Montserrat-Bold";
     top: 240px;
     font-size: 18px;
     left: 0;
@@ -115,3 +121,8 @@ ul.meta.TopNewsesCarouselItemsMeta  {
 .TopNewsesCarouselItemsMeta li a {
     color: rgb(53, 53, 53)!important;
 }
+/***
+==================================================
+TOPNEWSES  END
+==================================================
+***/

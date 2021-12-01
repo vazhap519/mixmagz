@@ -1,23 +1,19 @@
 @import "trendingBanner.css";
+@import "TopStoryesWiget.css";
+@import "OtherStori.css";
+
 .TrendingNewsesAreaWigets{
     border-left: 2px solid #ccc;
     width: 460px;
-    height: auto;
+    height: 2260px;
     display: flex;
     flex-direction: column;
     border-right: 2px solid #ccc;
+    border-bottom: 2px solid #ccc;
+background-color:#f9f9f9;
 }
-.TopStoryWigetArea{
-    height: 670px;
-    width: 100%;
-    border-bottom: 1px solid;
-}
-.TopStoryWigetAreaContent{
-    width: 310px;
-    height: 550px;
-    margin-top: 60px;
-    margin-left: 45px;
-}
-.TopStoryWigetArea .headlines{
-   
-}
+/***
+===============================================================================================
+WIGETS SYLES END
+===============================================================================================
+***/

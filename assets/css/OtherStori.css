@@ -1,0 +1,71 @@
+#OtherStoryArea{
+width: 430px;
+height: auto;
+display: flex;
+flex-direction: column;
+}
+
+.OtherStoryAreaContent{
+    width: 285px;
+    height: 790px;
+    position: relative;
+    margin-left: 45px;
+    margin-top: 60px;
+}
+
+.OtherStoryAreaContentCarousels{
+    position: relative;
+    height: 735px;
+  
+    display: flex;
+    flex-direction: column;
+}
+.OtherStoryAreaContentCarouselsArea{
+    height: 145px;
+    width: 100%;
+    margin-top: 50px;
+}
+.OtherStoryAreaContentCarouselsContent{
+    height: 145px;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+}
+.OtherStori_img{
+    width: 150px; 
+    height: 145px;
+}
+.OtherStori_Article{
+    width: 125px;
+    height: 125px;
+    position: relative;
+}
+.OtherStori_Article p a{
+    font-size: 17px;
+    color: #000!important;
+}
+.OtherMeta{
+    font-size: 9px;
+    display: flex;
+    flex-direction: column;
+}
+.OtherMeta li::after{
+    content: none;
+}
+.OtherCat {
+    font-family: "Montserrat-Light";
+    font-size: 10px;
+    color: #fc4733;
+    position: absolute;
+    text-transform: capitalize;
+    margin-top: 35px;
+}
+.OtherCat:hover{
+    color: #fc4733;
+}
+/***
+===============================================================================================
+OTHER STORIS SYLES END
+===============================================================================================
+***/

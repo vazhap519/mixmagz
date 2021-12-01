@@ -35,16 +35,16 @@
     border-radius: 0!important;
 }
 .meta{
-    font-family:"Montserrat-Light" ;
-    font-size: 12px;
-    list-style: none;
-   display: flex;
-    justify-content: flex-start;
-    text-transform: capitalize;
-    width: 100%;
-    height: auto;
-     position: absolute; 
-    padding-left: 0;
+font-family:"Montserrat-Light" ;
+font-size: 12px;
+list-style: none;
+display: flex;
+justify-content: flex-start;
+text-transform: capitalize;
+width: 100%;
+height: auto;
+position: absolute; 
+padding-left: 0;
 }
 
 .meta li:last-child::after{
@@ -56,10 +56,10 @@
     content: "|";
     padding-left: 15px;
     padding-right: 10px;
-    color: #f1f1f1;
+    color: rgb(88, 88, 88);
 }
 .meta li a{
-    color: #f1f1f1;
+    color: rgb(70, 68, 68);
 }
 
 .headlines{
