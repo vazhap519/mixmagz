@@ -1,24 +1,32 @@
-@media (min-width: 300px) { 
-  .logoArea {
-    margin: 0 auto;
+@media (min-width: 300px)  { 
+  .logoArea{
+    margin: auto;
     display: flex;
+    text-align: center;
+  }
+  
+  .socialArea{
+    float: none;
+    text-align: center
+  }
+.headerMiddleSection .navbar .FL{
+ margin-left: 30px;
+
 }
-ul.socialArea {
-  text-align: center;
+
+.BuisnessNews{
+  margin-bottom: 50px
 }
-.TopNewsesContainerLeftContentArea{
-  left: 0;
+.newsAreaRightTop{
+  flex-direction: column;
+  margin-left: auto
+  
 }
-.sportNewsArea,.photographyNewsArea,.health{
-margin-left: 0;
+.PhotographyNewsSlide{
+  top: 30px;
+  
 }
-.leaderBoard >p{
-  color: #999;
-}
-.healthContentDesc li p a{
-  font-size: 12px;
-}
-}
+} 
 
 @media (min-width: 576px) { 
 

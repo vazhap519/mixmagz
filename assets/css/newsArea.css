@@ -21,10 +21,11 @@ ALL IN STYLES
 =========================================================
 ***/
 .BuisnessNews{
-    width: 500px;
+  width: 100%;
+    max-width: 500px;
     height: 525px;
     position: relative; 
-    background-color: crimson;
+    
 }
 
 .BuisnessNews .BuisnessNewsContent{
@@ -68,7 +69,8 @@ BUISNESS STYLES
 ***/
 
 .newsAreaRight{
-    width: 525px;
+  width: 100%
+    max-width: 525px;
     height: auto;
  display: flex;
  flex-direction: column;
@@ -96,7 +98,8 @@ NEWSAREA TOP STYLES
 .sportNewsSlide{
     position: relative;
     height: 245px;
-    width: 245px;
+    min-width: 245px;
+    width: 100%
 }
 .sportNews{
     position: absolute;
@@ -118,7 +121,8 @@ SPORT NEWS STYLES
 .PhotographyNewsSlide{
     position: relative;
     height: 245px;
-    width: 245px;
+    min-width: 245px;
+    width: 100%;
 
 }
 
@@ -145,7 +149,7 @@ PHOTOGRAPHY NEWS STYLES
     width: 525px;
     height: 240px;
     position: relative;
-    background-color: thistle;
+    
     top: 40px;
 }
 .healthContent{
