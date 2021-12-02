@@ -1,0 +1,42 @@
+#TopTrendingVideosArea{
+    height: 1025px;
+ 
+    background-image: url('../images/videoBg.png');
+    position:relative;
+    width: 100%;
+    /* max-width: 1200px; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+.TopTrendingVideosAreaOverlay{
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    background-color: #000;
+    opacity: 0.5;
+}
+.TopTrendingVideosAreaContent{
+    width: 1130px;
+    height: 100vh;
+
+  border: 2px solid red;
+z-index: 4;
+margin: auto;
+
+}
+.TopTrendingVideosHeader{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family:"Montserrat-Bold" ;
+    color: #fff;
+    margin-bottom: 60px;
+}
+
+.TopTrendingVideosAreaContentVideos{
+display: flex;
+width: 1050px;
+height: 100vh;
+background-color: darkcyan;
+}
+

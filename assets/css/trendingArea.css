@@ -1,6 +1,7 @@
 @import "TrendingNewsCarousel.css";
 @import "TrendingNewsesAreaWigets.css";
 @import"TrendingNewsesBottomArea.css";
+@import "TopTrendingVideosArea.css";
 #TrendingArea{
     max-width: 100%;
     width: 1125px;
