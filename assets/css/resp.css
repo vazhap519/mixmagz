@@ -1,10 +1,13 @@
-@media (min-width: 300px)  { 
+@media screen and (min-device-width: 300px) and (max-device-width: 481px)  { 
   .logoArea{
     margin: auto;
     display: flex;
     text-align: center;
   }
-  
+  .logoArea a{
+    margin-left: 40px;
+}
+
   .socialArea{
     float: none;
     text-align: center
@@ -26,6 +29,22 @@
   top: 30px;
   
 }
+
+.newsAreaRightTop{
+  flex-direction: column;
+  margin-top: 25px;
+}
+.sportNewsSlide{
+  margin-bottom: 25px;
+}
+
+
+article.articles.BuisnessNewsArticle{
+  left: 0;
+}
+.p.ArticleP.BuisnessNewsArticleP{
+  font-size: 20px;
+}
 } 
 
 @media (min-width: 576px) { 
@@ -39,7 +58,7 @@
         
  }
 
-//*Large devices (desktops, 992px and up)*/
+/*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) { 
 
         

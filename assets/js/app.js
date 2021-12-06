@@ -111,3 +111,19 @@ for(var i=0;i<TopNewsesCarouselItems.length;i++){
 //END SCROLL CAROUSEL
 
 
+var FashionNews=document.querySelectorAll(".FeaturedNewsAreaSub_Fashion_Carousel"),
+    FashionNewsCount=0;
+    function FashionF(){
+        for(var i=0;i<FashionNews.length;i++){
+            FashionNews[i].style.display="none";
+        }
+    }
+function FashionUpdate(){
+    FashionNewsCount++;
+    FashionF()
+    if(FashionNewsCount>FashionNews.length-1){
+        FashionNewsCount=0;
+    }
+    FashionNews[FashionNewsCount].style.display="block";
+}    
+setInterval(FashionUpdate,1000)
