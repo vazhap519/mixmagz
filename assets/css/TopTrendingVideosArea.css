@@ -1,5 +1,5 @@
 #TopTrendingVideosArea{
-    height: 1025px;
+    height: 1300px;
  
     background-image: url('../images/videoBg.png');
     position:relative;
@@ -15,42 +15,43 @@
     position: absolute;
     background-color: #000;
     opacity: 0.5;
+    z-index: 1;
 }
 
-.TopTrendingVideosAreaContent {
-    width: 1050px;
+.videoArea{
+    width: 1135px;
+    height: 100%;
+    position: relative;
     margin: auto;
-    text-transform: capitalize;
-    position: relative;
-    height: auto;
+    background-color: hotpink;
+    z-index: 2;
 }
-h1.TopTrendingVideosHeader {
-    
-    font-family:"Montserrat-Bold" ;
-    background-color: green;
+.videoAreaHeader{
     font-size: 30px;
-    color: #fff;
+    text-transform: uppercase;
+    font-family:"Montserrat-Bold" ;
+    color: #f1f1f1;
 }
-.VideoArea{
+.videoAreaContent{
+    height: auto;
+    width: 100%;
+    background-color: red;
+    margin-top: 60px!important;
+    display: flex;
+   margin: 0;
+   padding: 0;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+ 
+}
+.Video{
+    width: 230px;
+    height: 200px;
+    background-color: indigo;
+    
+}
+.bigVideo{
+    width: 530px;
     height: 430px;
-    background-color: green;
-    margin-top: 60px;
-    width: 100%;
-}
-.videoLeft{
-width: 230px;
-height: 430px;
-margin-right: 30px;
-position: relative;
-}
-.videoContent{
-    position: relative;
-    width: 100%;
-    height: 100%;
-}video{
-    background-image: url("../images/1.png");
-    background-size: contain;
-    width: 100%;
-    height: 100%;
-    position: absolute;
 }
