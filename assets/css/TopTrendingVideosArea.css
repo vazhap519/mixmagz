@@ -1,6 +1,5 @@
 #TopTrendingVideosArea{
     height: 1300px;
- 
     background-image: url('../images/videoBg.png');
     position:relative;
     width: 100%;
@@ -20,10 +19,10 @@
 
 .videoArea{
     width: 1135px;
-    height: 100%;
+    height: 720px;
     position: relative;
     margin: auto;
-    background-color: hotpink;
+  
     z-index: 2;
 }
 .videoAreaHeader{
@@ -35,7 +34,7 @@
 .videoAreaContent{
     height: auto;
     width: 100%;
-    background-color: red;
+  
     margin-top: 60px!important;
     display: flex;
    margin: 0;
@@ -49,9 +48,59 @@
     width: 230px;
     height: 200px;
     background-color: indigo;
-    
+margin: 0;
+padding: 0;
+position: relative;
 }
 .bigVideo{
     width: 530px;
     height: 430px;
+}
+#video{
+    width: 100%;
+  height: 100%;
+    position: absolute;
+    object-fit: cover;
+}
+.play{
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    background-color: #fc4733;
+}
+.play::before{
+  
+    font-size: 25px;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f04b";
+   text-align: center;
+ color: #fff;
+   padding: 10px;
+}
+.Video >p{
+    font-size: 14px;
+    font-family:"Montserrat-Bold" ;
+    position: absolute;
+    z-index: 2;
+    color: #fff;
+    top: 145px;
+    left: 20px;
+    text-transform: uppercase;
+}
+.bigVideo >p{
+    font-size: 24px;
+    font-family:"Montserrat-Bold" ;
+    position: absolute;
+    z-index: 2;
+    color: #fff;
+    top: 335px;
+    left: 20px;
+    text-transform: uppercase;
+    width: 320px;
+}
+.horizontal{
+    border: 2px solid #ccc;
+    margin-top: 110px;
 }

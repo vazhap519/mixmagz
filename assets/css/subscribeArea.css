@@ -1,0 +1,32 @@
+.subscribeArea{
+
+    width: 1050px;
+    margin: auto;
+    height: auto;
+    position: relative;
+    z-index: 2;
+    margin-top: 75px;
+}
+.subscribeAreaHeader{
+    font-family:"Montserrat-Light" ;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+}
+.subscribeAreaHeader h1{
+    font-size: 29px;
+}
+.subscribeAreaHeader h3{
+    font-size: 15px;
+}
+
+.inputsArea{
+    margin: auto;
+}
+.inputsArea input{
+    width: 248px;
+    height: 50px;
+}
+.subName {
+    margin-left: 130px;
+}

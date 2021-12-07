@@ -127,3 +127,18 @@ function FashionUpdate(){
     FashionNews[FashionNewsCount].style.display="block";
 }    
 setInterval(FashionUpdate,1000)
+
+
+var playVideo=document.querySelectorAll(".play");
+
+var video=document.querySelectorAll("#video")
+function playVideos(){
+if(video.paused){
+    video.play();
+}
+}
+playVideo.forEach(function(play){
+play.addEventListener("click",function(){
+    console.log(playVideos())
+})
+})

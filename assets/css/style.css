@@ -6,8 +6,7 @@
 @import "topNeses.css";
 @import "FeaturedNewsArea.css";
 @import "trendingArea.css";
-
-
+@import "footer.css";
 #main{
 width: 100%;
 height: auto;
