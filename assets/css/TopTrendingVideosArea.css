@@ -55,6 +55,7 @@ position: relative;
 .bigVideo{
     width: 530px;
     height: 430px;
+    top: 90px;
 }
 #video{
     width: 100%;

@@ -1,6 +1,6 @@
 .subscribeArea{
-
-    width: 1050px;
+width: 100%;
+    max-width: 1050px;
     margin: auto;
     height: auto;
     position: relative;
@@ -18,10 +18,12 @@
 }
 .subscribeAreaHeader h3{
     font-size: 15px;
+    margin-top: 35px;
 }
 
 .inputsArea{
     margin: auto;
+    margin-top: 35px!important;
 }
 .inputsArea input{
     width: 248px;
