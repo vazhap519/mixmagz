@@ -18,8 +18,10 @@
 }
 
 .videoArea{
-    width: 1135px;
-    height: 720px;
+    width: 100%;
+    max-width: 1135px;
+    min-height: 720px;
+    height: 100%;
     position: relative;
     margin: auto;
   
@@ -45,7 +47,8 @@
  
 }
 .Video{
-    width: 230px;
+ 
+    min-width: 230px;
     height: 200px;
     background-color: indigo;
 margin: 0;

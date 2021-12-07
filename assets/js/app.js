@@ -82,6 +82,7 @@ setInterval(function(){
 },1000)
 //END HEALTH CAROUSEL
 let TopNewsesCarouselItems=document.querySelectorAll(".TopNewsesCarouselItems");
+
 let TopNewsesCarousel=document.querySelector(".TopNewsesCarousel");
 let LeftArrow=document.querySelector(".left")
 let RightArrow=document.querySelector(".right")
