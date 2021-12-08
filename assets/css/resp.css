@@ -6,6 +6,10 @@
         text-align: center;
         display: block;
     }
+    .navbar-light .navbar-brand {
+        color: rgba(0, 0, 0, 0.9);
+        margin-left: 190px;
+    }
     .socialArea {
         margin-right: -50px;
         width: 100%;
@@ -136,6 +140,10 @@ font-size: 25px;
     a.logoText {
         text-align: center;
         display: block;
+    }
+    .navbar-light .navbar-brand {
+        color: rgba(0, 0, 0, 0.9);
+        margin-left: 190px;
     }
     .socialArea {
         margin-right: -50px;
@@ -271,6 +279,11 @@ font-size: 25px;
     .newsAreaRight{
         margin: auto;
     }
+
+    .navbar-light .navbar-brand {
+        color: rgba(0, 0, 0, 0.9);
+        margin-left: 190px;
+    }
     .FeaturedNewsAreaSub_Fashion_CarouselArea{
         margin: auto;
     }
@@ -289,7 +302,7 @@ font-size: 25px;
     }
     .BuisnessNews{
         min-width: 100%;
-        background-color: blueviolet;
+    
     }
     .newsAreaRightTop{
         flex-direction: column;
