@@ -1,10 +1,15 @@
 @media screen and (min-device-width: 300px) and (max-device-width: 481px)  { 
+    .logoArea {
+        margin-left: -20px;
+    }
     a.logoText {
         text-align: center;
         display: block;
     }
-    .socialArea{
-        margin-right: 170px;
+    .socialArea {
+        margin-right: -50px;
+        width: 100%;
+        /* margin: auto; */
     }
     .BuisnessNews{
         min-width: 100%;
@@ -23,11 +28,11 @@
     }
 
     .header >h2{
-        margin-top: -10px!important;
+        margin-top: -14px!important;
         margin: 0;
     }
     .header >h2 a{
-       font-size: 11px;
+       font-size: 8px;
     }
     #bannerArea >p {
         font-size: 18px;
@@ -75,17 +80,335 @@
         position: absolute;
         width: 210px;
     }
+
+
+    .FeaturedNewsAreaSub_Fashion_Carousel_Article{
+        left: 0;
+    }
+    .FeaturedNewsAreaSub_Fashion_Carousel_Article_head_Fashion a{
+font-size: 25px;
+    }
+   
+     
+        ul.TopNewsesCarouselBtns {
+            left: 60%;
+        }
+        .TopNewsesCarouselBtns li {
+        
+            padding: 5px;
+      
+        }
+
+        #TopTrendingVideosArea{
+            height: auto;
+        }
+        .inputsArea{
+            text-align: center;
+            padding-bottom: 35px;
+        }
+        .inputsArea input{
+            margin-top: 35px;
+        }
+        .subName{
+            margin-left: 0;
+        }
+
+        .footerBottom {
+            font-size: 12px;
+        }
+        h1.videoAreaHeader {
+            font-size: 25px;
+            text-align: center;
+        }
+
+        #TrendingArea{
+            flex-wrap: wrap;
+        }
+        .TrendingNewsesAreaWigets{
+            margin: auto;
+        }
 } 
 
 @media screen and (min-device-width: 481px) and (max-device-width: 576px) {
+    .logoArea {
+        margin-left: -20px;
+    }
+    a.logoText {
+        text-align: center;
+        display: block;
+    }
+    .socialArea {
+        margin-right: -50px;
+        width: 100%;
+        /* margin: auto; */
+    }
+    .BuisnessNews{
+        min-width: 100%;
+        background-color: blueviolet;
+    }
+    .newsAreaRightTop{
+        flex-direction: column;
+    }
+    .sportNewsSlide{
+        min-width: 100%;
+        margin-top: 35px;
+    }
+    .PhotographyNewsSlide{
+        min-width: 100%;
+        margin-top: 35px;
+    }
+
+    .header >h2{
+        margin-top: -11px!important;
+        margin: 0;
+    }
+    .header >h2 a{
+       font-size: 12px;
+    }
+    #bannerArea >p {
+        font-size: 18px;
+        margin-top: 35px;
+    }
+    .FeaturedNewsArea_header_h2{
+        text-align: center;
+    }
+    .FeaturedNewsAreaSub{
+        flex-direction: column;
+    }
+    .FeaturedNewsAreaPostsAreas{
+        width: 100%;
+        margin-top: 35px;
+    }
+    .TrendingNewsesAreaHead h2{
+       
+        text-align: center;
+    }
+    .TrendingNewsesBottomAreaContentPosts{
+        width: 100%!important;
+    }
+    .TrendingNewsesBottomAreaContentPosts_img{
+        width: 100%!important;
+    }
+ 
+    .videoAreaContent {
+        flex-direction: column!important;
+    }
+    .Video{
+        margin: auto;
+        margin-top: 35px;
+        width: 30%!important;
+        
     
+    }
+    .bigVideo{
+        top: 0;
+    }
+    .bigVideo >p{
+        font-size: 14px;
+        width: 100%;
+        /* left: 81px; */
+        top: 373px;
+        position: absolute;
+        width: 210px;
+    }
+
+
+    .FeaturedNewsAreaSub_Fashion_Carousel_Article{
+        left: 0;
+    }
+    .FeaturedNewsAreaSub_Fashion_Carousel_Article_head_Fashion a{
+font-size: 25px;
+    }
+   .headlines{
+        font-size: 20px;
+        }
+        h1.videoAreaHeader {
+            font-size: 25px;
+            text-align: center;
+        }
+        ul.TopNewsesCarouselBtns {
+            left: 60%;
+        }
+        .TopNewsesCarouselBtns li {
+        
+            padding: 5px;
+      
+        }
+
+        #TopTrendingVideosArea{
+            height: auto;
+        }
+        .inputsArea{
+            text-align: center;
+            padding-bottom: 35px;
+        }
+        .inputsArea input{
+            margin-top: 35px;
+        }
+        .subName{
+            margin-left: 0;
+        }
+
+        .footerBottom {
+            font-size: 12px;
+        }
+
+        h1.videoAreaHeader {
+            font-size: 25px;
+            text-align: center;
+        }
+        #TrendingArea{
+            flex-wrap: wrap;
+        }
+        .TrendingNewsesAreaWigets{
+            margin: auto;
+        }
 }
 
 
 /* Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) { 
+@media screen and (min-device-width: 576px) and (max-device-width: 768px) { 
+    .newsAreaRight{
+        margin: auto;
+    }
+    .FeaturedNewsAreaSub_Fashion_CarouselArea{
+        margin: auto;
+    }
+    
+    .logoArea {
+        margin-left: 120px;
+    }
+    a.logoText {
+        text-align: center;
+        display: block;
+    }
+    .socialArea {
+        margin-right: -180px;
+        width: 100%;
+      
+    }
+    .BuisnessNews{
+        min-width: 100%;
+        background-color: blueviolet;
+    }
+    .newsAreaRightTop{
+        flex-direction: column;
+    }
+    .sportNewsSlide{
+        min-width: 100%;
+        margin-top: 35px;
+    }
+    .PhotographyNewsSlide{
+        min-width: 100%;
+        margin-top: 35px;
+    }
 
+    .header >h2{
+        margin-top: -11px!important;
+        margin: 0;
+    }
+    .header >h2 a{
+       font-size: 12px;
+    }
+    #bannerArea >p {
+        font-size: 18px;
+        margin-top: 35px;
+    }
+    .FeaturedNewsArea_header_h2{
+        text-align: center;
+    }
+    .FeaturedNewsAreaSub{
+        flex-direction: column;
+    }
+    .FeaturedNewsAreaPostsAreas{
+        width: 100%;
+        margin-top: 35px;
+    }
+    .TrendingNewsesAreaHead h2{
+       
+        text-align: center;
+    }
+    .TrendingNewsesBottomAreaContentPosts{
+        width: 100%!important;
+    }
+    .TrendingNewsesBottomAreaContentPosts_img{
+        width: 100%!important;
+    }
+ 
+    .videoAreaContent {
+        flex-direction: column!important;
+    }
+    .Video{
+        margin: auto;
+        margin-top: 35px;
+        width: 30%!important;
         
+    
+    }
+    .bigVideo{
+        top: 0;
+    }
+    .bigVideo >p{
+        font-size: 14px;
+        width: 100%;
+        /* left: 81px; */
+        top: 373px;
+        position: absolute;
+        width: 210px;
+    }
+
+
+    .FeaturedNewsAreaSub_Fashion_Carousel_Article{
+        left: 0;
+    }
+    .FeaturedNewsAreaSub_Fashion_Carousel_Article_head_Fashion a{
+font-size: 30px;
+    }
+    .FeaturedNewsAreaPostsArea{
+        margin: auto;
+    }
+   .headlines{
+        font-size: 20px;
+        }
+       
+        ul.TopNewsesCarouselBtns {
+            left: 60%;
+        }
+        .TopNewsesCarouselBtns li {
+        
+            padding: 5px;
+      
+        }
+
+        #TopTrendingVideosArea{
+            height: auto;
+        }
+        .inputsArea{
+            text-align: center;
+            padding-bottom: 35px;
+        }
+        .inputsArea input{
+            margin-top: 35px;
+        }
+        .subName{
+            margin-left: 0;
+        }
+
+        .footerBottom {
+            font-size: 12px;
+        }
+
+        h1.videoAreaHeader {
+            font-size: 25px;
+            text-align: center;
+        }
+
+        #TrendingArea{
+            flex-wrap: wrap;
+        }
+        .TrendingNewsesAreaWigets{
+            margin: auto;
+        }
  }
 
 /*Large devices (desktops, 992px and up)*/
