@@ -81,21 +81,26 @@ setInterval(function(){
     HealthCarouselUpdate()
 },1000)
 //END HEALTH CAROUSEL
-let TopNewsesCarouselItems=document.querySelectorAll(".TopNewsesCarouselItems");
 
+
+
+let TopNewsesCarouselItems=document.querySelectorAll(".TopNewsesCarouselItems");
 let TopNewsesCarousel=document.querySelector(".TopNewsesCarousel");
 let LeftArrow=document.querySelector(".left")
 let RightArrow=document.querySelector(".right")
+
 LeftArrow.addEventListener("click",()=>{
     TopNewsesCarousel.scrollLeft-=125;
 })
 RightArrow.addEventListener("click",()=>{
     TopNewsesCarousel.scrollLeft+=125;
 })
+
 const max=TopNewsesCarousel.scrollWidth-TopNewsesCarousel.clientWidth;
+console.log(max)
 function Autoplay(){
     if(TopNewsesCarousel.scrollLeft>(max-1)){
-        TopNewsesCarousel.scrollLeft-=max;
+        TopNewsesCarousel.scrollLeft-= max;
     }else{
         TopNewsesCarousel.scrollLeft+=1;
     }
@@ -110,6 +115,10 @@ for(var i=0;i<TopNewsesCarouselItems.length;i++){
     })
 }
 //END SCROLL CAROUSEL
+
+
+
+
 
 
 var FashionNews=document.querySelectorAll(".FeaturedNewsAreaSub_Fashion_Carousel"),
@@ -130,16 +139,27 @@ function FashionUpdate(){
 setInterval(FashionUpdate,1000)
 
 
-var playVideo=document.querySelectorAll(".play");
 
-var video=document.querySelectorAll("#video")
-function playVideos(){
-if(video.paused){
-    video.play();
+
+
+var OtherStoriContainer=document.querySelector(".OtherStoryAreaContentCarouselsArea");
+   var OtherStoriItems=document.querySelectorAll(".OtherStoryAreaContentCarouselsContent");
+const OtherMax=OtherStoriContainer.scrollHeight - OtherStoriContainer.clientHeight;
+function TopSCF(){
+    var scrolTopC=OtherStoriContainer.scrollTop += 240;
+    if(OtherStoriContainer.scrollTop > (OtherMax-1)) {
+        OtherStoriContainer.scrollTop -= OtherMax
+        
+     }
+    
 }
+const InterValOther=setInterval(TopSCF,1000)
+
+for(var index=0;index<OtherStoriItems.length;index++){
+    OtherStoriItems[index].addEventListener("mouseover",()=>{
+        clearInterval(InterValOther)
+    })
+    OtherStoriItems[index].addEventListener("mouseout",()=>{
+         return InterValOther;
+    })
 }
-playVideo.forEach(function(play){
-play.addEventListener("click",function(){
-    console.log(playVideos())
-})
-})

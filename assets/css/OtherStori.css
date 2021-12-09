@@ -7,28 +7,33 @@ flex-direction: column;
 
 .OtherStoryAreaContent{
     width: 285px;
-    height: 790px;
+    height: auto;
     position: relative;
     margin-left: 45px;
     margin-top: 60px;
 }
 
 .OtherStoryAreaContentCarousels{
-    position: relative;
+    /* position: relative; */
     height: 735px;
-  
     display: flex;
     flex-direction: column;
 }
 .OtherStoryAreaContentCarouselsArea{
-    height: 145px;
+    height: auto;
     width: 100%;
     margin-top: 50px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+.OtherStoryAreaContentCarouselsArea::-webkit-scrollbar{
+    display: block;
+    scrollbar-color: red;
 }
 .OtherStoryAreaContentCarouselsContent{
     height: 145px;
     width: 100%;
-    position: absolute;
+  margin-bottom: 35px;
     display: flex;
     justify-content: space-between;
 }
