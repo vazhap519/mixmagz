@@ -18,6 +18,11 @@ flex-direction: column;
     height: 735px;
     display: flex;
     flex-direction: column;
+    scroll-behavior: smooth;
+    overflow-y: auto;
+}
+.OtherStoryAreaContentCarousels::-webkit-scrollbar{
+    display: block;
 }
 .OtherStoryAreaContentCarouselsArea{
     height: auto;
@@ -31,20 +36,21 @@ flex-direction: column;
     scrollbar-color: red;
 }
 .OtherStoryAreaContentCarouselsContent{
-    height: 145px;
+    height: 170px;
     width: 100%;
   margin-bottom: 35px;
     display: flex;
     justify-content: space-between;
 }
 .OtherStori_img{
-    width: 150px; 
-    height: 145px;
+    width: 170px; 
+    height: 170px;
 }
 .OtherStori_Article{
     width: 125px;
-    height: 125px;
+    height: 170px;
     position: relative;
+    margin-left: 15px;
 }
 .OtherStori_Article p a{
     font-size: 17px;
