@@ -81,46 +81,6 @@ setInterval(function(){
     HealthCarouselUpdate()
 },1000)
 //END HEALTH CAROUSEL
-
-
-
-let TopNewsesCarouselItems=document.querySelectorAll(".TopNewsesCarouselItems");
-let TopNewsesCarousel=document.querySelector(".TopNewsesCarousel");
-let LeftArrow=document.querySelector(".left")
-let RightArrow=document.querySelector(".right")
-
-LeftArrow.addEventListener("click",()=>{
-    TopNewsesCarousel.scrollLeft-=125;
-})
-RightArrow.addEventListener("click",()=>{
-    TopNewsesCarousel.scrollLeft+=125;
-})
-
-const max=TopNewsesCarousel.scrollWidth-TopNewsesCarousel.clientWidth;
-console.log(max)
-function Autoplay(){
-    if(TopNewsesCarousel.scrollLeft>(max-1)){
-        TopNewsesCarousel.scrollLeft-= max;
-    }else{
-        TopNewsesCarousel.scrollLeft+=1;
-    }
-}
-let play=setInterval(Autoplay,50)
-for(var i=0;i<TopNewsesCarouselItems.length;i++){
-    TopNewsesCarouselItems[i].addEventListener("mouseover",()=>{
-        clearInterval(play)
-    })
-    TopNewsesCarouselItems[i].addEventListener("mouseout",()=>{
-        return play=setInterval(Autoplay,50)
-    })
-}
-//END SCROLL CAROUSEL
-
-
-
-
-
-
 var FashionNews=document.querySelectorAll(".FeaturedNewsAreaSub_Fashion_Carousel"),
     FashionNewsCount=0;
     function FashionF(){
@@ -135,17 +95,54 @@ function FashionUpdate(){
         FashionNewsCount=0;
     }
     FashionNews[FashionNewsCount].style.display="block";
-}    
+} 
 setInterval(FashionUpdate,1000)
+//END FASHION CAROUSEL
+
+
+let TopNewsesCarouselItems=document.querySelectorAll(".TopNewsesCarouselItems");
+let TopNewsesCarousel=document.querySelector(".TopNewsesCarousel");
+let LeftArrow=document.querySelector(".left")
+let RightArrow=document.querySelector(".right")
+
+LeftArrow.addEventListener("click",()=>{
+    TopNewsesCarousel.scrollLeft-=125;
+})
+RightArrow.addEventListener("click",()=>{
+    TopNewsesCarousel.scrollLeft+=125;
+})
+const max=TopNewsesCarousel.scrollWidth-TopNewsesCarousel.clientWidth;
+
+
+function Autoplay(){
+    if(TopNewsesCarousel.scrollLeft>(max-1)){
+        TopNewsesCarousel.scrollLeft-= max;
+    }else{
+        TopNewsesCarousel.scrollLeft+=1;
+    }
+}
+let play=setInterval(Autoplay,50)
+
+
+for(var i=0;i<TopNewsesCarouselItems.length;i++){
+    TopNewsesCarouselItems[i].addEventListener("mouseover",()=>{
+        clearInterval(play)
+    })
+    TopNewsesCarouselItems[i].addEventListener("mouseout",()=>{
+        return play=setInterval(Autoplay,50)
+    })
+}
+//END SCROLL CAROUSEL
 
 
 
 
 
 var OtherStoriContainer=document.querySelector(".OtherStoryAreaContentCarouselsArea");
-   var OtherStoriItems=document.querySelectorAll(".OtherStoryAreaContentCarouselsContent");
+var OtherStoriItems=document.querySelectorAll(".OtherStoryAreaContentCarouselsContent");
 const OtherMax=OtherStoriContainer.scrollHeight - OtherStoriContainer.clientHeight;
-function TopSCF(){
+
+function TopAutoplayOther(){
     var scrolTopC=OtherStoriContainer.scrollTop += 240;
     if(OtherStoriContainer.scrollTop > (OtherMax-1)) {
         OtherStoriContainer.scrollTop -= OtherMax
@@ -153,13 +150,13 @@ function TopSCF(){
      }
     
 }
-const InterValOther=setInterval(TopSCF,1000)
+let InterValOther=setInterval(TopAutoplayOther,1000)
 
-for(var index=0;index<OtherStoriItems.length;index++){
-    OtherStoriItems[index].addEventListener("mouseover",()=>{
+for(var i=0;i<OtherStoriItems.length;i++){
+    OtherStoriItems[i].addEventListener("mouseover",()=>{
         clearInterval(InterValOther)
     })
-    OtherStoriItems[index].addEventListener("mouseout",()=>{
-         return InterValOther;
+    OtherStoriItems[i].addEventListener("mouseuot",()=>{
+        return InterValOther=setInterval(TopAutoplayOther,1000)
     })
 }
