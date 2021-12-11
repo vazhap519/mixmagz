@@ -13,6 +13,9 @@ flex-direction: column;
     margin-top: 60px;
 }
 
+.OtherStoryAreaContent h1{
+margin-bottom: 35px;
+}
 .OtherStoryAreaContentCarousels{
     /* position: relative; */
     height: 735px;
@@ -25,7 +28,7 @@ flex-direction: column;
     display: block;
 }
 .OtherStoryAreaContentCarouselsArea{
-    height: auto;
+    /* height: 600px; */
     width: 295px;
     margin-top: 50px;
     overflow-x: auto;
@@ -42,6 +45,7 @@ flex-direction: column;
     display: flex;
     justify-content: space-between;
 }
+
 .OtherStori_img{
     width: 145px; 
     height: 145px;

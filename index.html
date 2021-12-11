@@ -8,6 +8,7 @@
     <link rel="stylesheet" type="text/css" href="./assets/css/styles/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> 
     <link rel="stylesheet" type="text/css" href="./assets/css/resp.css">
+   
     <title>Document</title>
     
 </head>
@@ -941,7 +942,6 @@
                       <a href="" class="OtherCat">fashion</a>
                 </article>
             </section>
-
             <section class="OtherStoryAreaContentCarouselsContent">
                 <img src="./assets/images/9.png" class="OtherStori_img">
                 <article class="OtherStori_Article">
@@ -953,9 +953,6 @@
                       <a href="" class="OtherCat">fashion</a>
                 </article>
             </section>
-
-
-            
             <section class="OtherStoryAreaContentCarouselsContent">
               <img src="./assets/images/10.png" class="OtherStori_img">
               <article class="OtherStori_Article">
@@ -967,7 +964,6 @@
                     <a href="" class="OtherCat">fashion</a>
               </article>
           </section>
-
           <section class="OtherStoryAreaContentCarouselsContent">
               <img src="./assets/images/9.png" class="OtherStori_img">
               <article class="OtherStori_Article">
@@ -979,9 +975,6 @@
                     <a href="" class="OtherCat">fashion</a>
               </article>
           </section>
-
-
-
           <section class="OtherStoryAreaContentCarouselsContent">
             <img src="./assets/images/8.png" class="OtherStori_img">
             <article class="OtherStori_Article">
@@ -1029,16 +1022,14 @@
                 <a href="" class="OtherCat">fashion</a>
           </article>
       </section>
+     
         </div>
-
-        
-       
         </div>
-        
     </div>  
 </div>
   </div>
 </div>
+
     <!--
 ========================================================
  TRENDING  NEWSES  AREA STYLES END
@@ -1185,10 +1176,37 @@ SUBSCEIBE  AREA STYLES END
 
 
 <script src="./assets/js/jquery.js"></script>
+
 <script src="./assets/js/bootstrap.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script> 
  <script src="./assets/js/app.js"></script> 
+<script src="./assets/js/jquery.easy-ticker.js"></script>
+ <script>
+    $('.OtherStoryAreaContentCarousels').easyTicker({
 
-
+      // or 'down'
+      direction: 'up',
+    
+      // easing function
+      easing: 'swing',
+    
+      // animation speed
+      speed: 'slow',
+    
+      // animation delay
+      interval: 2000,
+    
+      // height
+      height: 'auto',
+    
+      // the number of visible elements of the list
+      visible: 0,
+    
+      // enables pause on hover
+      mousePause: 1,
+    
+    
+    });
+  </script>
 </body>
 </html>

@@ -1,17 +1,19 @@
 @media screen and (min-width: 300px) and (max-width: 481px)  { 
-    .logoArea {
-        margin-left: -20px;
-    }
+
+        .logoArea {
+            margin-left: 40px;
+        }
+   
     a.logoText {
         text-align: center;
         display: block;
     }
     .navbar-light .navbar-brand {
         color: rgba(0, 0, 0, 0.9);
-        margin-left: 190px;
+        margin-left: 120px;
     }
     .socialArea {
-        margin-right:115px;
+        margin-right:-110px;
         width: 100%;
         /* margin: auto; */
     }
@@ -37,7 +39,7 @@
         margin: 0;
     }
     .header >h2 a{
-       font-size: 8px;
+       font-size: 11px;
     }
     #bannerArea >p {
         font-size: 18px;
@@ -87,9 +89,9 @@
     }
 
 
-    .FeaturedNewsAreaSub_Fashion_Carousel_Article{
+    /* .FeaturedNewsAreaSub_Fashion_Carousel_Article{
         left: 0;
-    }
+    } */
     .FeaturedNewsAreaSub_Fashion_Carousel_Article_head_Fashion a{
 font-size: 25px;
     }
@@ -131,6 +133,16 @@ font-size: 25px;
         }
         .TrendingNewsesAreaWigets{
             margin: auto;
+        }
+
+        .FeaturedNewsAreaPostsArea_First p {
+            margin-top: 10px;
+            text-align: center;
+        }
+        .FeaturedNewsAreaPostsArea_First_meta {
+            bottom: -17px;
+            left: 40px;
+            text-align: center;
         }
 } 
 
@@ -223,10 +235,10 @@ font-size: 25px;
         width: 210px;
     }
 
-
+/* 
     .FeaturedNewsAreaSub_Fashion_Carousel_Article{
         left: 0;
-    }
+    } */
     .FeaturedNewsAreaSub_Fashion_Carousel_Article_head_Fashion a{
 font-size: 25px;
     }
@@ -273,6 +285,15 @@ font-size: 25px;
         }
         .TrendingNewsesAreaWigets{
             margin: auto;
+        }
+        .FeaturedNewsAreaPostsArea_First p {
+            margin-top: 10px;
+            text-align: center;
+        }
+        .FeaturedNewsAreaPostsArea_First_meta {
+            bottom: -17px;
+            left: 40px;
+            text-align: center;
         }
 }
 
@@ -424,6 +445,15 @@ font-size: 30px;
         }
         .TrendingNewsesAreaWigets{
             margin: auto;
+        }
+        .FeaturedNewsAreaPostsArea_First p {
+            margin-top: 10px;
+            text-align: center;
+        }
+        .FeaturedNewsAreaPostsArea_First_meta {
+            bottom: -17px;
+            left: 40px;
+            text-align: center;
         }
  }
 
@@ -588,6 +618,15 @@ font-size: 30px;
            
         }
         ul.footerTopContents li h2{
+            text-align: center;
+        }
+        .FeaturedNewsAreaPostsArea_First p {
+            margin-top: 10px;
+            text-align: center;
+        }
+        .FeaturedNewsAreaPostsArea_First_meta {
+            bottom: -17px;
+            left: 40px;
             text-align: center;
         }
  }

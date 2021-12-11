@@ -5,7 +5,7 @@
 .TrendingNewsesAreaWigets{
     border-left: 2px solid #ccc;
     width: 460px;
-    height: 2260px;
+    height: auto;
     display: flex;
     flex-direction: column;
     border-right: 2px solid #ccc;

@@ -98,13 +98,10 @@ function FashionUpdate(){
 } 
 setInterval(FashionUpdate,1000)
 //END FASHION CAROUSEL
-
-
 let TopNewsesCarouselItems=document.querySelectorAll(".TopNewsesCarouselItems");
 let TopNewsesCarousel=document.querySelector(".TopNewsesCarousel");
 let LeftArrow=document.querySelector(".left")
 let RightArrow=document.querySelector(".right")
-
 LeftArrow.addEventListener("click",()=>{
     TopNewsesCarousel.scrollLeft-=125;
 })
@@ -112,7 +109,6 @@ RightArrow.addEventListener("click",()=>{
     TopNewsesCarousel.scrollLeft+=125;
 })
 const max=TopNewsesCarousel.scrollWidth-TopNewsesCarousel.clientWidth;
-
 
 function Autoplay(){
     if(TopNewsesCarousel.scrollLeft>(max-1)){
@@ -138,25 +134,9 @@ for(var i=0;i<TopNewsesCarouselItems.length;i++){
 
 
 
-var OtherStoriContainer=document.querySelector(".OtherStoryAreaContentCarouselsArea");
-var OtherStoriItems=document.querySelectorAll(".OtherStoryAreaContentCarouselsContent");
-const OtherMax=OtherStoriContainer.scrollHeight - OtherStoriContainer.clientHeight;
 
-function TopAutoplayOther(){
-    var scrolTopC=OtherStoriContainer.scrollTop += 240;
-    if(OtherStoriContainer.scrollTop > (OtherMax-1)) {
-        OtherStoriContainer.scrollTop -= OtherMax
-        
-     }
-    
-}
-let InterValOther=setInterval(TopAutoplayOther,1000)
 
-for(var i=0;i<OtherStoriItems.length;i++){
-    OtherStoriItems[i].addEventListener("mouseover",()=>{
-        clearInterval(InterValOther)
-    })
-    OtherStoriItems[i].addEventListener("mouseuot",()=>{
-        return InterValOther=setInterval(TopAutoplayOther,1000)
-    })
-}
+
+
+
+
