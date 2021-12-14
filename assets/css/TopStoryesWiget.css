@@ -1,16 +1,17 @@
-.TopStoryWigetArea{
+.WigetArea{
     height: 670px;
-    width: 100%;
+    max-width: 100%;
+    width: 430px;
     border-bottom: 1px solid;
 }
-.TopStoryWigetAreaContent{
+.WigetAreaContent{
     width: 310px;
     height: 550px;
     margin-top: 60px;
     margin-left: 45px;
 }
 
-.TopStoriesWgetContent{
+.WgetContent{
     position: relative;
     width: 305px; 
     height: 485px;
@@ -18,36 +19,36 @@
     margin-top: 40px;
 }
 
-.TopStoriesWgetContentPosts{
+.WgetContentPosts{
     height: 380px;
     width: 305px;
    
     position: absolute;
 }
-.TopStoriesWgetContentPosts >img{
+.WgetContentPosts >img{
     width: 100%;
     height: 230px;
     position: absolute;
     z-index: 0;
 }
-.TopStoryCat{
+.WgetCat{
     position: absolute;
     z-index: 1;
     background-color: #fc4733!important;
     top: 192px;
 }
-.TopStoriesWgetContentPosts article{
+.WgetContentPosts article{
     position: absolute;
     top: 260px;
 }
-.TopStoriesWgetContentPosts article p a {
+.WgetContentPosts article p a {
 font-size: 22px!important;
 color: #000!important;
 }
-.TopStoryesMeta{
+.WgetMeta{
     top: 100px!important;
 }
-.TopStoriesWgetButtons {
+.WgetButtons {
     position: absolute;
     background: #000;
     top: 419px;
@@ -57,7 +58,7 @@ margin: auto;
 width: 305px;
 
 }
-.TopStoriesWgetButtons .btn{
+.WgetButtons .btn{
 padding-top: 15px;
 padding-bottom: 15px;
 text-align: center;
@@ -69,16 +70,16 @@ border-radius: 0%!important;
 outline: none!important;
 box-shadow: none!important;
 }
-.TopStoriesWgetButtons button:hover{
+.WgetButtons button:hover{
     background-color: #555555!important;
     color: #fff;
 }
-.TopStoriesWgetButtons button:active{
+.WgetButtons button:active{
     outline: none!important;
 }
 
 /***
 ============================================================================================================
-TOP WIGETS AREA END
+ WIGETS AREA END
 ============================================================================================================
 ***/

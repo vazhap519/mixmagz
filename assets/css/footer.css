@@ -5,7 +5,7 @@
    
 }
 .footerTop{
-    max-width: 1030px;
+    max-width: 1125px;
     height: auto;
     margin:0 auto;
     width: 100%;
@@ -23,7 +23,7 @@
     margin: 0;
     max-width: 100%;
     flex-wrap: wrap;
-    width: 1030px;
+    width: 1125px;
 }
 .footerTopContents li{
     width: 300px;

@@ -1,0 +1,72 @@
+#category_page{
+    width: 100%;
+    max-width: 1050px;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.category_page_Content{
+    width: 650px;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+.category_page_Content h1{
+    margin-top: 65px;
+    padding-bottom: 27px;
+    display: block;
+
+}
+.category_page_Carousell{
+    max-width: 100%;
+    width:650px;
+    height: 555px;
+    list-style: none;
+    position: relative;
+    padding: 0!important;
+}
+
+.category_page_Carousell .category_page_Carousell_content{
+position: absolute;
+max-width: 100%;
+width: 650px;
+height: 555px;
+
+}
+.category_page_Carousell .category_page_Carousell_content > a{
+    position: relative;
+    width: 100%;
+ height: auto;
+}
+.category_page_Carousell .category_page_Carousell_content a img {
+    height: 405px;
+    max-width: 100%;
+
+    width: 650px;
+}
+.category_page_Carousell_content_Article {
+    position: absolute;
+    top: 435px;
+    height: 120px;
+    width: 650px;
+    max-width: 100%;
+}
+.category_page_Carousell_content_Article >a p{
+    text-decoration: none;
+    color: #000;
+    font-size: 34px;
+    font-family:"Montserrat-Bold" ;
+    text-transform: uppercase;
+}
+.category_page_Carousell_content_Article >a:hover{
+    text-decoration: none;
+}
+.category_page_Carousell_content_Article .meta{
+    bottom: 0;
+}

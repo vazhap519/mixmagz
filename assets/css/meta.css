@@ -67,6 +67,7 @@ padding-left: 0;
     font-size: 30px;
     color: #fc4733;
     text-transform: uppercase;
+    font-smooth: always;
 }
 .headlines:hover{
     color: #fc4733;
