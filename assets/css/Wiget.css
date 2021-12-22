@@ -1,12 +1,13 @@
 .WigetArea{
     width: 460px;
     height: auto;
+    border-right: 2px solid #ccc;
+    border-left: 2px solid #ccc;
 }
 .WigetAreaContent {
     width: 100%;
     height: auto;
-    border-right: 2px solid #ccc;
-    border-left: 2px solid #ccc;
+  
 }
 .TrendingNewsesAreaWigets{
     width: 100%;
