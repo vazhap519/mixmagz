@@ -8,6 +8,7 @@
 @import "trendingArea.css";
 @import "footer.css";
 @import 'category_page.css';
+@import'Wiget.css';
 #main{
 width: 100%;
 height: auto;
@@ -15,3 +16,9 @@ overflow: hidden;
 background-color: rgb(249, 249, 249);
 }
 
+.middleArea {
+    width: 1130px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}

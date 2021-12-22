@@ -5,11 +5,13 @@
 @import "subscribeArea.css";
 #TrendingArea{
     max-width: 100%;
-    width: 1125px;
+    width: 650px;
     height: auto;
-    margin: auto;
+    /* margin: auto; */
     display: flex;
-    flex-wrap:nowrap
+    flex-wrap:nowrap;
+
+
 }
 /***
 ==================================================

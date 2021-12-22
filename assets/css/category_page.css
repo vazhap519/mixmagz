@@ -70,3 +70,18 @@ height: 555px;
 .category_page_Carousell_content_Article .meta{
     bottom: 0;
 }
+.box{
+    width: 300px;
+    height: 300px;
+    scroll-behavior: smooth;
+    position: relative;
+    overflow-y: scroll;
+    z-index: 10;
+
+}
+.box li{
+    width: 200px;
+    height: 200px;
+    border: 1px solid;
+    margin-top: 15px;
+}

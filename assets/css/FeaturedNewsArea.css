@@ -6,7 +6,7 @@
 
 .FeaturedNewsArea_header{
     width: 100%;
-    max-width: 1050px;
+    max-width: 1130px;
     height: 145px;
     margin: auto;
     position: relative;
@@ -16,7 +16,7 @@ padding-top: 60px;
 }
 .FeaturedNewsAreaSub{
     height: auto;
-    width: 1050px;
+    width: 1130px;
     max-width: 100%;
     margin:auto;
     margin-bottom: 60px;
@@ -60,7 +60,6 @@ display: flex;
 .FeaturedNewsAreaSub_Fashion_Carousel_Article {
     position: absolute;
     z-index: 4;
- 
     width: 345px;
     height: 265px;
     left: 35px;

@@ -1,0 +1,201 @@
+.WigetArea{
+    width: 460px;
+    height: auto;
+}
+.WigetAreaContent {
+    width: 100%;
+    height: auto;
+    border-right: 2px solid #ccc;
+    border-left: 2px solid #ccc;
+}
+.TrendingNewsesAreaWigets{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid #ccc;
+background-color:#f9f9f9;
+}
+/***
+===============================================================================================
+WIGETS SYLES END
+===============================================================================================
+***/
+
+.TopStoryWigetArea{
+    height: 670px;
+    width: 100%;
+    border-bottom: 1px solid;
+}
+.TopStoryWget {
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 60px;
+}
+.TopStoryWigetAreaContent{
+    width: 310px;
+    height: 550px;
+    margin-top: 60px;
+    margin-left: 45px;
+}
+
+.TopStoryWgetContent{
+    position: relative;
+    width: 305px; 
+    height: 485px;
+  
+    margin-top: 40px;
+    margin: auto;
+}
+
+.TopStoryWgetContentPosts{
+    height: 380px;
+    width: 305px;
+   
+    position: absolute;
+}
+.TopStoryWgetContentPosts >img{
+    width: 100%;
+    height: 230px;
+    position: absolute;
+    z-index: 0;
+}
+.TopStoryWgetCat{
+    position: absolute;
+    z-index: 1;
+    background-color: #fc4733!important;
+    top: 192px;
+}
+.TopStoryWgetContentPosts article{
+    position: absolute;
+    top: 260px;
+}
+.TopStoryWgetContentPosts article p a {
+font-size: 22px!important;
+color: #000!important;
+}
+.TopStoryWgetMeta{
+    top: 100px!important;
+}
+.TopStoryWgetButtons {
+    position: absolute;
+    background: #000;
+    top: 419px;
+display: flex;
+justify-content: space-around;
+margin: auto;
+width: 305px;
+
+}
+.TopStoryWgetButtons .btn{
+padding-top: 15px;
+padding-bottom: 15px;
+text-align: center;
+font-size: 12px;
+font-family:"Montserrat-Bold" ;
+text-transform: uppercase;
+color: #fff;
+border-radius: 0%!important;
+outline: none!important;
+box-shadow: none!important;
+}
+.TopStoryWgetButtons button:hover{
+    background-color: #555555!important;
+    color: #fff;
+}
+.TopStoryWgetButtons button:active{
+    outline: none!important;
+}
+
+/***
+============================================================================================================
+ TopStoryWigetArea AREA END
+============================================================================================================
+***/
+
+
+#WgetOtherStoryArea{
+    width: 430px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    }
+    
+    .WgetOtherStoryAreaContent{
+        width: 285px;
+        height: auto;
+        position: relative;
+   margin: auto;
+    }
+    
+    .WgetOtherStoryAreaContent h1{
+    margin-bottom: 35px;
+    }
+    .WgetOtherStoryAreaContentCarousels{
+        /* position: relative; */
+        height: 735px;
+        display: flex;
+        flex-direction: column;
+        scroll-behavior: smooth;
+        overflow-y: auto;
+    }
+    .WgetOtherStoryAreaContentCarousels::-webkit-scrollbar{
+        display: block;
+    }
+    .OtherStoryAreaContentCarouselsArea{
+        /* height: 600px; */
+        width: 295px;
+        margin-top: 50px;
+        overflow-x: auto;
+        scroll-behavior: smooth;
+    }
+    .WgetOtherStoryAreaContentCarouselsArea::-webkit-scrollbar{
+        display: block;
+        scrollbar-color: red;
+    }
+    .WgetOtherStoryAreaContentCarouselsContent{
+        height: 170px;
+        width: 100%;
+      margin-bottom: 35px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .WgetOtherStori_img{
+        width: 145px; 
+        height: 145px;
+    }
+    .WgetOtherStori_Article{
+        width: 125px;
+        height: 170px;
+        position: relative;
+        /* margin-left: 15px; */
+    }
+    .WgetOtherStori_Article p a{
+        font-size: 17px;
+        color: #000!important;
+    }
+    .WgetOtherMeta{
+        font-size: 9px;
+        display: flex;
+        flex-direction: column;
+    }
+    .WgetOtherMeta li::after{
+        content: none;
+    }
+    .WgetOtherCat {
+        font-family: "Montserrat-Light";
+        font-size: 10px;
+        color: #fc4733;
+        position: absolute;
+        text-transform: capitalize;
+        margin-top: 35px;
+    }
+    .WgetOtherCat:hover{
+        color: #fc4733;
+    }
+    /***
+    ===============================================================================================
+    OTHER STORIS SYLES END
+    ===============================================================================================
+    ***/
+    
