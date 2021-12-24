@@ -14,6 +14,7 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    margin-right: 50px;
 
 }
 
@@ -84,4 +85,63 @@ height: 555px;
     height: 200px;
     border: 1px solid;
     margin-top: 15px;
+}
+/***
+========================================================================================================
+        END CATEGORY CAROUSEL STYLE
+========================================================================================================
+***/
+
+.category_page_sub_content {
+    list-style: none;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+    margin: 0;
+    padding: 0;
+    height: auto;
+}
+.category_page_sub_content >li{
+    width: 310px;
+    height: 410px;
+    margin-top: 50px;
+}
+article.category_page_sub_content_article {
+    position: relative;
+}
+.category_page_sub_content_article p{
+    margin-top: 15px;
+}
+.category_page_sub_content_article .ArticlePA{
+    font-size: 24px;
+  color: #000!important;
+  text-transform: uppercase;
+}
+img.category_page_sub_content_img {
+    width: 310px;
+    height: 270px;
+}
+ul.meta.category_page_sub_content_article_meta {
+    bottom: -15px;
+}
+
+.pagination{
+    margin-top: 100px;
+    display: inline-block;
+    list-style: none;
+}
+.pagination li{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    background-color: #636363;
+    padding-top: 15px;
+    margin-right: 10px;
+    color: #fff;
+}
+.pagination li:active{
+    background-color: #fc4733;
 }
