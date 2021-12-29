@@ -53,6 +53,8 @@ WIGETS SYLES END
     width: 305px;
    padding-top: 35px;
     position: absolute;
+    transition: all 4s;
+    
 }
 .TopStoryWgetContentPosts >img{
     width: 100%;
