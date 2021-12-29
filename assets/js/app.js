@@ -138,5 +138,3 @@ for(var i=0;i<TopNewsesCarouselItems.length;i++){
 
 
 
-
-
