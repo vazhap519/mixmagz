@@ -9,11 +9,21 @@
 @import "footer.css";
 @import 'category_page.css';
 @import'Wiget.css';
+@import'contact.css';
 #main{
 width: 100%;
 height: auto;
 overflow: hidden;
 background-color: rgb(249, 249, 249);
+}
+.main{
+    width: 100%;
+    max-width: 1130px;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 .middleArea {

@@ -1,0 +1,38 @@
+.contact_page_content {
+   
+    width: 650px;
+    margin-right: 50px;
+    height: auto;
+}
+.contact_page_content h1{
+    margin-top: 60px;
+}
+.contact_page_content_header{
+    color: #000!important;
+    font-size: 34px!important;
+  text-transform: uppercase;
+}
+.contact_page_content_section{
+    overflow: hidden;
+    height: auto;
+    width: 100%;
+
+    margin-top: 55px;
+
+}
+.contact_page_content_section p{
+    text-transform: capitalize;
+    font-size: 14px;
+    font-family:"Montserrat-ExtraLight" ;
+    color: #a3a3a3;
+}
+.ContactForm{
+    text-transform: uppercase;
+    color: #a3a3a3;
+    font-size: 16px;
+margin-top: 45px;
+}
+
+.ContactForm .form-group{
+    margin-top: 30px;
+}
