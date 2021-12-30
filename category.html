@@ -202,7 +202,29 @@
         </article>
     </a>
 </li>
-  </ul>  
+  </ul> 
+  <script>
+
+
+  let index=0;
+let CategoryPageCarouselItems=document.querySelectorAll(".category_page_Carousell_content");
+function CategoryPageCarousel(){
+    for(var index=0;index<CategoryPageCarouselItems.length;index++){
+        CategoryPageCarouselItems[index].style.display="none";
+    }
+}
+function CategoryPageCarouselUpdate(){
+    CategoryPageCarousel()
+    index++;
+    if(index>CategoryPageCarouselItems.length-1){
+        index=0
+    }
+    CategoryPageCarouselItems[index].style.display="block";
+}
+
+setInterval(CategoryPageCarouselUpdate,1000)
+</script>
+//END CATEGORY PAGE  CROUSEL 
   <!--
     =========================================================================================
                                   CATEGORY PAGE CAROUSEL END
