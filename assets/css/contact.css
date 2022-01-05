@@ -36,3 +36,11 @@ margin-top: 45px;
 .ContactForm .form-group{
     margin-top: 30px;
 }
+.sucsses{
+    display: none;
+    color: green;
+}
+.error{
+    display: none;
+    color: red;
+}

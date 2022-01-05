@@ -166,23 +166,30 @@
 
         <form class="ContactForm">
             <div class="form-group  form-group-name ">
-              <input type="text" class="form-control"   name="name" placeholder="name">
+              <input type="text" class="form-control NameInp"   name="name" placeholder="name">
+              <small class="sucsses">გთხოვთ გააგრძელოთ</small>
+              <small class="error">შეცდომაა შრამოწმე ველი</small>
               </div>
               <div class="form-group form-group-emil">
-              <input type="email" class="form-control"   name="email" placeholder="Email">
+              <input type="email" class="form-control EmailInp"   name="email" placeholder="Email">
+              <small class="sucsses">გთხოვთ გააგრძელოთ</small>
+              <small class="error">შეცდომაა შრამოწმე ველი</small>
               </div>
               <div class="form-group form-group-tel">
-              <input type="tel" class="form-control"   name="tel" placeholder="Phone">
+              <input type="tel" class="form-control TelInp"   name="tel" placeholder="Phone">
+              <small class="sucsses">გთხოვთ გააგრძელოთ</small>
+              <small class="error">შეცდომაა შრამოწმე ველი</small>
             </div>
          
             
             <div class="form-group form-group-Message">
-              <textarea class="form-control"  name="Message" placeholder="Message" rows="3"></textarea>
+              <textarea class="form-control MessageInp"  name="Message" placeholder="Message" rows="3"></textarea>
+              <small class="sucsses">გთხოვთ გააგრძელოთ</small>
+              <small class="error">შეცდომაა შრამოწმე ველი</small>
 
             </div>
             <div class="form-group">
-                <button type="submit" class="btn btn-danger contactBtn">CONTACT</button>
-  
+                <button type="submit" class="btn btn-danger contactBtn">CONTACT</button>  
               </div>
           </form>
     </div>
