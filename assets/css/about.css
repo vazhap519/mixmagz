@@ -1,0 +1,50 @@
+.about_page_Content{
+  
+    height: auto;
+    width: 650px;
+    margin-right: auto;
+}
+.about_page_Content_description{
+    width: 650px;
+    height: auto;
+
+    margin-top: 60px;
+}
+.about_page_Content_description .about_page_Content_description_H1{
+    color:#000!important;
+    font-size: 34px;
+    text-transform: capitalize;
+    
+
+}
+.about_page_Content_description article{
+width: 100%;
+height: auto;
+
+margin-top: 50px;
+}
+.about_page_Content_description article ul{
+    padding: 0!important;
+    text-transform: capitalize;
+
+    list-style: none;
+}
+.about_page_Content_description article ul li{
+    margin-top: 45px;
+}
+.about_page_Content_description article ul li p{
+    font-family:"Montserrat-ExtraLight" ;
+    font-size: 14px;
+    color: #3c3c3c;
+}
+.about_page_Content_description article ul li p a{
+    text-decoration: none;
+    color: #fc4733;
+    font-family:"Montserrat-Regular" ;
+}
+.about_page_Content_description_article_top li:nth-child(2) p{
+    font-family:"Montserrat-ExtraLightItalic" ;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-style: italic;
+}

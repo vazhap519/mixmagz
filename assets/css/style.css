@@ -10,6 +10,8 @@
 @import 'category_page.css';
 @import'Wiget.css';
 @import'contact.css';
+@import "about.css";
+@import "blog.css";
 #main{
 width: 100%;
 height: auto;
