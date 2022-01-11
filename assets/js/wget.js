@@ -1,31 +1,31 @@
 
-let TopStoryWgetContent=document.querySelectorAll(".TopStoryWgetContentPosts");
+let TopStoryWgetCont=document.querySelectorAll(".TopStoryWgetContentPosts");
 let TopStoryWgetLeft=document.querySelector(".TopStoryWgetButtonsLeft");
 let TopStoryWgetRight=document.querySelector(".TopStoryWgetButtonsRight");
 let TopStoryWgetCount=0;
 function TopStoryWgetContentUpdate(){
-    for(var i=0;i<TopStoryWgetContent.length;i++){
-        TopStoryWgetContent[i].style.display="none"
+    for(var i=0;i<TopStoryWgetCont.length;i++){
+        TopStoryWgetCont[i].style.display="none"
     }
 }
 function TopStoryWgetContentUpdateRight(){
     TopStoryWgetContentUpdate()
     TopStoryWgetCount++
-    if(TopStoryWgetCount>TopStoryWgetContent.length-1){
+    if(TopStoryWgetCount>TopStoryWgetCont.length-1){
         TopStoryWgetCount=0
        
     }
-    TopStoryWgetContent[TopStoryWgetCount].style.display="block";
+    TopStoryWgetCont[TopStoryWgetCount].style.display="block";
 
 }
 
 function TopStoryWgetContentUpdateLeft(){
     TopStoryWgetContentUpdate()
     if(TopStoryWgetCount==0){
-        TopStoryWgetCount=TopStoryWgetContent.length
+        TopStoryWgetCount=TopStoryWgetCont.length
     }
     TopStoryWgetCount--
-    TopStoryWgetContent[TopStoryWgetCount].style.display="block";
+    TopStoryWgetCont[TopStoryWgetCount].style.display="block";
     
 }
 
@@ -36,18 +36,21 @@ setInterval(TopStoryWgetContentUpdateRight,1000)
 //END TOP STORY CROUSEL
 
 
-let ContactForm=document.querySelector(".ContactForm");
+let Contact=document.querySelector(".ContactForm");
 let NameInput=document.querySelector(".NameInp");
 let Email=document.querySelector(".EmailInp");
 let Message=document.querySelector(".MessageInp");
 let Phone=document.querySelector(".TelInp")
 
+function Click(){
 
-ContactForm.addEventListener("submit",(e)=>{
-    e.preventDefault();
-    validateForm()
-})
 
+Contact.addEventListener("click",(events)=>{
+    events.preventDefault();
+      validateForm()
+ })
+ 
+}
 
 
 function validateForm(){
@@ -81,9 +84,7 @@ let regex = /^[\d,\s,\+,\-]{5,20}/;
     setError(Phone,"ნომერი არასწორია" )  
    
    }
-
      //message
-
   if(Message.value.trim()==""){
     setError(Message ," შეტრობინება ცარიელია");
   }else if(Message.value.trim().length<10){
