@@ -1,17 +1,25 @@
-@import "fonts.css";
-@import "nav.css";
+/* @import "fonts.css";
+@import "header.css";
 @import "meta.css";
 @import "newsArea.css";
-@import "banner.css";
-@import "topNeses.css";
-@import "FeaturedNewsArea.css";
-@import "trendingArea.css";
 @import "footer.css";
 @import 'category_page.css';
 @import'Wiget.css';
 @import'contact.css';
 @import "about.css";
-@import "blog.css";
+@import "blog.css"; */
+@import url(./assets/css/header.css);
+@import url(./assets/css/newsArea.css);
+@import url(./assets/css/fonts.css);
+@import url(./assets/css/meta.css);
+@import url(./assets/css/about.css);
+@import url(/assets/css/blog.css);
+@import url(/assets/css/blog_single.css);
+@import url(/assets/css/category_page.css);
+@import url(/assets/css/contact.css);
+@import url(/assets/css/Wiget.css);
+@import url(/assets/css/resp.css);
+@import url(/assets/css/footer.css);
 #main{
 width: 100%;
 height: auto;

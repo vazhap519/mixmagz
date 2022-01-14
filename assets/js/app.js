@@ -6,6 +6,7 @@ function LeftSlideLen(){
     BuisnessSlideContainer[index].style.display="none"; 
    }
 }
+
 function updateLeftSlide(){
     LeftSlideLen();
          BuisnessSlideContainerCounter++
@@ -14,9 +15,11 @@ function updateLeftSlide(){
     } 
         BuisnessSlideContainer[BuisnessSlideContainerCounter].style.display="block";
 }
+
 setInterval(function(){
     updateLeftSlide()
 },1000)
+
 //END BUISNESS CAROUSEL
 var SportCount=0,
     ContainerSportNews=document.querySelectorAll(".sportNews");
@@ -27,6 +30,7 @@ var SportCount=0,
             
         }
     }
+
 function SportCarouselUpdate(){
     SportCarousel()
     SportCount++
@@ -35,6 +39,7 @@ function SportCarouselUpdate(){
     }
     ContainerSportNews[SportCount].style.display="block"
 }
+
 setInterval(function(){
     SportCarouselUpdate()
 },1000)
@@ -47,6 +52,7 @@ var photoCount=0,
          
      }
     }
+
 function PhotoCarouselUpdate(){
     PhotoCarousel()
     photoCount++;
@@ -55,6 +61,8 @@ function PhotoCarouselUpdate(){
     }
     ContainerPhoto[photoCount].style.display="block"
 }
+
+
  setInterval(function(){
      PhotoCarouselUpdate()
  },1000)
@@ -62,13 +70,13 @@ function PhotoCarouselUpdate(){
 
 var ContainerHealthCount=0,
     ContainerHealth=document.querySelectorAll(".healthContent");
-
     function HealthCarousel(){
      for (let index = 0; index < ContainerHealth.length; index++) {
         ContainerHealth[index].style.display="none";
          
      }
     }
+
 function HealthCarouselUpdate(){
     HealthCarousel()
     ContainerHealthCount++;
@@ -77,9 +85,11 @@ function HealthCarouselUpdate(){
     }
     ContainerHealth[ContainerHealthCount].style.display="block"
 }
+
 setInterval(function(){
     HealthCarouselUpdate()
 },1000)
+
 //END HEALTH CAROUSEL
 var FashionNews=document.querySelectorAll(".FeaturedNewsAreaSub_Fashion_Carousel"),
     FashionNewsCount=0;
@@ -88,6 +98,7 @@ var FashionNews=document.querySelectorAll(".FeaturedNewsAreaSub_Fashion_Carousel
             FashionNews[i].style.display="none";
         }
     }
+
 function FashionUpdate(){
     FashionNewsCount++;
     FashionF()
@@ -96,12 +107,18 @@ function FashionUpdate(){
     }
     FashionNews[FashionNewsCount].style.display="block";
 } 
+
 setInterval(FashionUpdate,1000)
 //END FASHION CAROUSEL
+
+
+
 let TopNewsesCarouselItems=document.querySelectorAll(".TopNewsesCarouselItems");
 let TopNewsesCarousel=document.querySelector(".TopNewsesCarousel");
 let LeftArrow=document.querySelector(".left")
 let RightArrow=document.querySelector(".right")
+
+
 LeftArrow.addEventListener("click",()=>{
     TopNewsesCarousel.scrollLeft-=125;
 })
@@ -129,16 +146,6 @@ for(var i=0;i<TopNewsesCarouselItems.length;i++){
     })
 }
 //END SCROLL CAROUSEL
-
-
-
-
-
-
-var main=document.getElementById("main");
-console.log(main.clientWidth)
-
-
 
 let TopStoryWgetContent=document.querySelectorAll(".TopStoryWgetContentPosts");
 let TopStoryWgetLeft=document.querySelector(".TopStoryWgetButtonsLeft");
@@ -177,97 +184,4 @@ setInterval(TopStoryWgetContentUpdateRight,1000)
 //END TOP STORY CROUSEL
 
 
-// let Contact=document.querySelector(".ContactForm");
-// let NameInput=document.querySelector(".NameInp");
-// let Email=document.querySelector(".EmailInp");
-// let Message=document.querySelector(".MessageInp");
-// let Phone=document.querySelector(".TelInp")
 
-
-
-
-
-// function validateForm(){
-//     //Name
-//     if(NameInput.value.trim()==""){
-//         setError(NameInput ," გთხოვთ შეავსოთ ველი");
-//     }else if(NameInput.value.trim().length<3){
-//         setError(NameInput ,"მინიმუალური სიმბოლოების რაოდენობა 3");
-//     }else{
-//         setSuccsess(NameInput,'გთხოვთ გააგრძელოთ')
-//     }
-//     //Email
-
-//     if(Email.value.trim()==""){
-//         setError(Email ," გთხოვთ შეავსოთ ველი");
-//     }else if(isEmailValid(Email.value)){
-//         setSuccsess(Email,"გთხოვთ გააგრძელოთ");
-//     }else{
-//         setError(Email,"გადაამოწმე იმეილი")
-//     }
-
-  
-// let regex = /^[\d,\s,\+,\-]{5,20}/;
-//     //phone
-//    if(Phone.value==""){
-//     setError(Phone,"გადაამოწმე ნომერი")  
-//    }else if(Phone.value.match(regex)){
-//     setSuccsess(Phone,"გთხოვთ გააგრძელოთ");
-//    }
-//    else{
-//     setError(Phone,"ნომერი არასწორია" )  
-   
-//    }
-//      //message
-//   if(Message.value.trim()==""){
-//     setError(Message ," შეტრობინება ცარიელია");
-//   }else if(Message.value.trim().length<10){
-//     setError(Message ," შეტრობინება 10 სიმბოლოზე ნაკლებია");
-//   }
-// else{
-//     setSuccsess(Message,"გთხოვთ გააგრძელოთ");
-// }
-
-// }
-
-
-// function setError(element, Errormessage){
-//     const parent=element.parentElement;
-//     if(parent.classList.contains("sucsses")){
-
-//         parent.classList.remove("sucsses");
-//     }
-//     parent.classList.add('error')
-//     const smaall=parent.querySelector("small")
-//     smaall.textContent=Errormessage;
-// }
-
-
-
-// function setSuccsess(element,succsessMesage){
-//     const parent=element.parentElement;
-//     if(parent.classList.contains("error")){
-//         parent.classList.remove("error")
-//     }
-//     parent.classList.add("sucsses");
-//     const small=parent.querySelector("small");
-//     small.textContent=succsessMesage;
-
-// }
-
-
-// function isEmailValid(email){
-//     const reg =/^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
-
-//     return reg.test(email);
-// }
-
-// function isPhoneValid(Phone){
-//     const PhoneReg= /^[\d,\s,\+,\-]{5,20}/;
-//     return PhoneReg.test(Phone)
-// }
-
-// Contact.addEventListener("click",function(e){
-//     // e.preventDefault();
-//      validateForm()
-// })

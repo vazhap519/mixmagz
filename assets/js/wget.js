@@ -1,8 +1,7 @@
-
+let StoryWgetLeft=document.querySelector(".TopStoryWgetButtonsLeft");
+ let StoryWgetRight=document.querySelector(".TopStoryWgetButtonsRight");
 let TopStoryWgetCont=document.querySelectorAll(".TopStoryWgetContentPosts");
-let TopStoryWgetLeft=document.querySelector(".TopStoryWgetButtonsLeft");
-let TopStoryWgetRight=document.querySelector(".TopStoryWgetButtonsRight");
-let TopStoryWgetCount=0;
+let TopStoryWgetCounter=0;
 function TopStoryWgetContentUpdate(){
     for(var i=0;i<TopStoryWgetCont.length;i++){
         TopStoryWgetCont[i].style.display="none"
@@ -10,29 +9,33 @@ function TopStoryWgetContentUpdate(){
 }
 function TopStoryWgetContentUpdateRight(){
     TopStoryWgetContentUpdate()
-    TopStoryWgetCount++
-    if(TopStoryWgetCount>TopStoryWgetCont.length-1){
-        TopStoryWgetCount=0
+    TopStoryWgetCounter++
+    if(TopStoryWgetCounter>TopStoryWgetCont.length-1){
+        TopStoryWgetCounter=0
        
     }
-    TopStoryWgetCont[TopStoryWgetCount].style.display="block";
+    TopStoryWgetCont[TopStoryWgetCounter].style.display="block";
 
 }
 
 function TopStoryWgetContentUpdateLeft(){
     TopStoryWgetContentUpdate()
-    if(TopStoryWgetCount==0){
-        TopStoryWgetCount=TopStoryWgetCont.length
+    if(TopStoryWgetCounter==0){
+        TopStoryWgetCounter=TopStoryWgetCont.length
     }
-    TopStoryWgetCount--
-    TopStoryWgetCont[TopStoryWgetCount].style.display="block";
+    TopStoryWgetCounter--
+    TopStoryWgetCont[TopStoryWgetCounter].style.display="block";
     
 }
-
-TopStoryWgetRight.addEventListener("click",TopStoryWgetContentUpdateRight);
-TopStoryWgetLeft.addEventListener('click',TopStoryWgetContentUpdateLeft);
-
+function TopStoryWgetRightClick(){
+   
+    TopStoryWgetRight.addEventListener("click",TopStoryWgetContentUpdateRight);
+   
+}
 setInterval(TopStoryWgetContentUpdateRight,1000)
+function TopStoryWgetLeftClick(){
+    StoryWgetLeft.addEventListener('click',TopStoryWgetContentUpdateLeft);
+}
 //END TOP STORY CROUSEL
 
 
@@ -42,17 +45,15 @@ let Email=document.querySelector(".EmailInp");
 let Message=document.querySelector(".MessageInp");
 let Phone=document.querySelector(".TelInp")
 
+
+
 function Click(){
-
-
 Contact.addEventListener("click",(events)=>{
     events.preventDefault();
       validateForm()
  })
  
 }
-
-
 function validateForm(){
     //Name
     if(NameInput.value.trim()==""){
@@ -107,9 +108,6 @@ function setError(element, Errormessage){
     const smaall=parent.querySelector("small")
     smaall.textContent=Errormessage;
 }
-
-
-
 function setSuccsess(element,succsessMesage){
     const parent=element.parentElement;
     if(parent.classList.contains("error")){
