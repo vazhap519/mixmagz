@@ -1,6 +1,12 @@
 @media screen and (min-width: 300px) and (max-width: 481px)  { 
+    .socialArea{
+        margin: auto;
+        float: none;
+        margin-left: 100px;
+        margin-bottom: 30px;
+    }
 .newsArea{
-    width: 350px;
+    width: 280px;
     margin: auto;
     }
 .newsArea .BuisnessNews{
@@ -15,7 +21,7 @@
 }
 .FeaturedNewsAreaSub_Fashion_Carousel_Article{
     left: 0;
-    width: 300px;
+    width: 250px;
 }
 
 .FeaturedNewsAreaSub_Fashion_Carousel_Article_head_Fashion a{
@@ -23,6 +29,8 @@
 }
 .BuisnessNewsArticle{
     top: 175px;
+    left: 0;
+    width: 100%;
 }
 .sportNewsSlide{
     margin-bottom: 50px;
@@ -32,10 +40,10 @@ width: 350px;
 
 }
 .healthSlide{
-width: 350px;
+width: 280px;
 }
 #bannerArea{
-    width: 350px;
+    width: 280px;
     margin: auto;
     margin-top: 100px;
 }
@@ -50,7 +58,7 @@ width: 350px;
     margin-top: -12px;
 }
 #TopNewses .header h2 a{
-    font-size: 10px;
+    font-size: 7px;
 
 }
 
@@ -61,34 +69,45 @@ width: 350px;
     padding: 5px;
 }
 
-
+.FeaturedNewsAreaSub_Fashion_CarouselArea{
+    margin-right: 0;
+}
+.fashionMeta .meta{
+    font-size: 11px;
+}
 .FeaturedNewsArea_header_h2{
     text-align: center;
 }
 
 .FeaturedNewsAreaSub{
     flex-wrap: wrap;
-    width: 350px;
+    width: 280px;
     margin: auto;
 }
 
 .FeaturedNewsAreaPostsAreas{
-width: 350px;
+width: 280px;
 margin-top: 50px;
+margin-bottom: 50px;
 }
 .headlines{
-font-size: 25px;
+font-size: 20px;
 }
 
 .middleArea{
-    width: 350px;
+    width: 280px;
     flex-wrap: wrap;
 }
 div#TrendingArea{
     width: 100%;
 }
+
+.TrendingNewsesAreaHead{
+    text-align: center;
+}
+
 .TrendingNewsesAreaContentsCarouselArea {
-    width: 350px;
+    width: 280px;
 }
 .TrendingNewsesAreaContentsCarouselArticle p a {
     font-size: 20px;
@@ -96,7 +115,7 @@ div#TrendingArea{
     color: #000;
 }
 .TrendingNewsesAreaContents{
-    width: 350px;
+    width: 280px;
     margin: auto;
     margin-bottom: 50px!important;
 }
@@ -104,7 +123,7 @@ div#TrendingArea{
     left: 0!important;
 }
 .TrendingNewsesBottomAreaContentPosts{
-    width: 350px;
+    width: 280px;
     margin: auto;
     margin-bottom: 50px;
 }
@@ -119,21 +138,21 @@ div#TrendingArea{
 
 .TrendingAdvertismentAreaContent{
     margin: 0;
-    width: 350px;
+    width: 280px;
 
 }
 .TopStoryWget h1{
 text-align: center;
 }
 .TopStoryWgetContent{
-    width: 350px;
+    width: 280px;
 }
 .TopStoryWgetContentPosts{
-    width: 350px;
+    width: 280px;
 }
 
 #WgetOtherStoryArea{
-    width: 350px;
+    width: 280px;
     margin-top: 50px;
     margin-bottom: 50px;
 }
@@ -141,7 +160,7 @@ text-align: center;
     text-align: center;
 }
 .WgetOtherStoryAreaContentCarouselsArea{
-    width: 350px;
+    width: 280px;
 }
 
 
@@ -149,24 +168,30 @@ text-align: center;
     height: auto;
 }
 .Video {
-    width: 300px;
+    width: 250px;
     height: 300px;
     margin-top: 50px;
    
 }
+.videoAreaContent {
+    justify-content: center;
+}
 .videoArea{
-    width: 350px;
+    width: 100%;
     height: auto;
-    margin: auto;
 }
 .bigVideo{
-    width: 300px;
-    height: 300px;
     top: 0;
+    width: 250px;
+    height: 300px;
 }
 .bigVideo >p{
-    font-size: 16px;
+    font-size: 14px;
     top: 145px;
+    left: 0;
+    width: 230px;
+    left: 20px;
+
 }
 .videoAreaHeader{
 font-size: 20px;
@@ -194,7 +219,7 @@ margin-top: 50px;
 }
 } 
 
-/* small devices (tablets, 300px and 481px)*/
+/* small devices (smartphones, 300px and 481px)*/
 
 
 
@@ -212,6 +237,206 @@ margin-top: 50px;
 
 
 @media screen and (min-width: 481px) and (max-width: 576px) {
+    .socialArea{
+        margin: auto;
+        float: none;
+        margin-left: 100px;
+        margin-bottom: 30px;
+    }
+    .newsArea{
+        width: 400px;
+        margin: auto;
+        }
+    .newsArea .BuisnessNews{
+        margin-right: 0;
+        margin-bottom: 50px;
+        }
+    .newsAreaRightTop{
+        flex-wrap: wrap;
+    }
+    .FeaturedNewsAreaSub_Fashion_Carousel_Article_head_Fashion{
+        font-size: 15px;
+    }
+    .FeaturedNewsAreaSub_Fashion_Carousel_Article{
+        left: 0;
+        width: 300px;
+    }
+    
+    .FeaturedNewsAreaSub_Fashion_Carousel_Article_head_Fashion a{
+        font-size: 18px;
+    }
+    .BuisnessNewsArticle{
+        top: 175px;
+    }
+    .sportNewsSlide{
+        margin-bottom: 50px;
+    }
+    .sportNewsSlide,.PhotographyNewsSlide{
+    width: 400px;
+    
+    }
+    .healthSlide{
+    width: 400px;
+    }
+    #bannerArea{
+        width: 400px;
+        margin: auto;
+        margin-top: 100px;
+    }
+    #bannerArea >p{
+        text-align: center;
+        font-size: 14px;
+        font-weight: bolder;
+        top: 15px;
+    
+    }
+    #TopNewses .header h2{
+        margin-top: -12px;
+    }
+    #TopNewses .header h2 a{
+        font-size: 10px;
+    
+    }
+    
+    .TopNewsesCarouselBtns{
+        left: 65%;
+    }
+    .TopNewsesCarouselBtns li{
+        padding: 5px;
+    }
+    
+    
+    .FeaturedNewsArea_header_h2{
+        text-align: center;
+    }
+    
+    .FeaturedNewsAreaSub{
+        flex-wrap: wrap;
+        width: 400px;
+        margin: auto;
+    }
+    
+    .FeaturedNewsAreaPostsAreas{
+    width: 400px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    }
+    .headlines{
+    font-size: 25px;
+    }
+    
+    .middleArea{
+        width: 400px;
+        flex-wrap: wrap;
+    }
+    div#TrendingArea{
+        width: 100%;
+    }
+    .TrendingNewsesAreaContentsCarouselArea {
+        width: 400px;
+    }
+    .TrendingNewsesAreaContentsCarouselArticle p a {
+        font-size: 20px;
+        text-transform: uppercase;
+        color: #000;
+    }
+    .TrendingNewsesAreaContents{
+        width: 400px;
+        margin: auto;
+        margin-bottom: 50px!important;
+    }
+    .TrendingNewsesAreaContentsCarouselArticle{
+        left: 0!important;
+    }
+    .TrendingNewsesBottomAreaContentPosts{
+        width: 400px;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+     .TrendingNewsesBottomAreaContentPosts_img{
+        width: 100%;
+    }
+    
+    .WigetArea{
+        width: 400px;
+        border:none
+    }
+    
+    .TrendingAdvertismentAreaContent{
+        margin: 0;
+        width: 400px;
+    
+    }
+    .TopStoryWget h1{
+    text-align: center;
+    }
+    .TopStoryWgetContent{
+        width: 400px;
+    }
+    .TopStoryWgetContentPosts{
+        width: 400px;
+    }
+    
+    #WgetOtherStoryArea{
+        width: 400px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .WgetOtherStoryAreaContent h1{
+        text-align: center;
+    }
+    .WgetOtherStoryAreaContentCarouselsArea{
+        width: 400px;
+    }
+    
+    
+    #TopTrendingVideosArea{
+        height: auto;
+    }
+    .Video {
+        width: 300px;
+        height: 300px;
+        margin-top: 50px;
+       
+    }
+    .videoArea{
+        width: 400px;
+        height: auto;
+        margin: auto;
+    }
+    .bigVideo{
+        width: 300px;
+        height: 300px;
+        top: 0;
+    }
+    .bigVideo >p{
+        font-size: 16px;
+        top: 145px;
+    }
+    .videoAreaHeader{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 25px;
+    }
+    .inputsArea{
+      text-align: center;
+      
+    }
+    .inputsArea div{
+        margin-top: 15px;
+        margin-bottom: 50px;
+    }
+    .subName{
+    margin-left: 0;
+    }
+    
+    .footerTopContents li h2{
+    text-align: center;
+    margin-top: 50px;
+    }
+    .footerBottom{
+        font-size: 12px;
+    }
  
 }
 

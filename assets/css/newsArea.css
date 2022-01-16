@@ -50,9 +50,8 @@ object-fit: cover;
 .BuisnessNewsArticle{
     width: 310px;
     height: 270px;
-
-    top: 205px;
- left: 35px;
+    top: 205px!important;
+    left: 35px;
     z-index: 2;
 }
 .BuisnessNewsArticle .BuisnessNewsCat{
@@ -158,6 +157,9 @@ PHOTOGRAPHY NEWS STYLES
 }
 .healthCat{
     background-color: #39b54a!important;
+}
+.healthNewsArticleP{
+    padding-top: 15px;
 }
 /***
 ========================================================
