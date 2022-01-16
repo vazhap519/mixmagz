@@ -185,3 +185,13 @@ setInterval(TopStoryWgetContentUpdateRight,1000)
 
 
 
+var DartModeMain=document.querySelector("#main"),
+DartModeFooter=document.querySelector("#footer")
+    
+
+var test=document.querySelector(".navbar-brand");
+test.addEventListener("click",function(e){
+    e.preventDefault();
+    DartModeMain.classList.toggle("dark");
+    DartModeFooter.classList.toggle("dark")
+})
