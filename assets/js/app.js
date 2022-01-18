@@ -117,19 +117,28 @@ let TopNewsesCarouselItems=document.querySelectorAll(".TopNewsesCarouselItems");
 let TopNewsesCarousel=document.querySelector(".TopNewsesCarousel");
 let LeftArrow=document.querySelector(".left")
 let RightArrow=document.querySelector(".right")
+function TopLeft(){
+    LeftArrow.addEventListener("click",()=>{
+        TopNewsesCarousel.scrollLeft-=125;
+    })
+}
+function TopRight(){
+    RightArrow.addEventListener("click",()=>{
+        TopNewsesCarousel.scrollLeft+=125;
+    })
+}
+function MaxSize(max){
+     max=TopNewsesCarousel.scrollWidth-TopNewsesCarousel.clientWidth;
+}
 
 
-LeftArrow.addEventListener("click",()=>{
-    TopNewsesCarousel.scrollLeft-=125;
-})
-RightArrow.addEventListener("click",()=>{
-    TopNewsesCarousel.scrollLeft+=125;
-})
-const max=TopNewsesCarousel.scrollWidth-TopNewsesCarousel.clientWidth;
+
+
+
 
 function Autoplay(){
-    if(TopNewsesCarousel.scrollLeft>(max-1)){
-        TopNewsesCarousel.scrollLeft-= max;
+    if(TopNewsesCarousel.scrollLeft>(MaxSize(max)-1)){
+        TopNewsesCarousel.scrollLeft-=MaxSize(max);
     }else{
         TopNewsesCarousel.scrollLeft+=1;
     }
@@ -144,6 +153,7 @@ for(var i=0;i<TopNewsesCarouselItems.length;i++){
     TopNewsesCarouselItems[i].addEventListener("mouseout",()=>{
         return play=setInterval(Autoplay,50)
     })
+    
 }
 //END SCROLL CAROUSEL
 
@@ -189,9 +199,25 @@ var DartModeMain=document.querySelector("#main"),
 DartModeFooter=document.querySelector("#footer")
 
 
-var test=document.querySelector(".navbar-brand");
-test.addEventListener("click",function(e){
-    e.preventDefault();
-    DartModeMain.classList.toggle("dark");
-    DartModeFooter.classList.toggle("dark")
-})
+ 
+
+  let index=0;
+let CategoryPageCarouselItems=document.querySelectorAll(".blog_page_Carousell_content");
+function CategoryPageCarousel(){
+    for(var index=0;index<CategoryPageCarouselItems.length;index++){
+        CategoryPageCarouselItems[index].style.display="none";
+    }
+}
+function CategoryPageCarouselUpdate(){
+    CategoryPageCarousel()
+    index++;
+    if(index>CategoryPageCarouselItems.length-1){
+        index=0
+    }
+    CategoryPageCarouselItems[index].style.display="block";
+}
+
+setInterval(CategoryPageCarouselUpdate,1000)
+
+
+

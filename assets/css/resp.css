@@ -1,9 +1,17 @@
 @media screen and (min-width: 300px) and (max-width: 481px)  { 
+    .logoArea {
+        width: 100%;
+        margin: auto;
+        background: rebeccapurple;
+        text-align: center;
+    }
     .socialArea{
         margin: auto;
         float: none;
-        margin-left: 100px;
+        width: 100%;
         margin-bottom: 30px;
+        margin-top: 30px;
+        text-align: center;
     }
 .newsArea{
     width: 280px;
@@ -132,8 +140,10 @@ div#TrendingArea{
 }
 
 .WigetArea{
-    width: 350px;
-    border:none
+    width: 280px;
+    border:none;
+    margin: auto;
+
 }
 
 .TrendingAdvertismentAreaContent{
@@ -210,6 +220,10 @@ margin-top: 25px;
 margin-left: 0;
 }
 
+footer#footer {
+    width: 280px;
+margin: auto;
+}
 .footerTopContents li h2{
 text-align: center;
 margin-top: 50px;
@@ -217,8 +231,108 @@ margin-top: 50px;
 .footerBottom{
     font-size: 12px;
 }
-} 
+/*
+============================================================================================================
+                                        INDEX PAGE 300-481PX RESPONIVE
+============================================================================================================
+*/
 
+#about_page{
+    flex-direction: column;
+}
+.about_page_Content{
+    width: 280px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.about_page_Content_description{
+    width: 100%;
+}
+.about_page_Content_description_H1{
+    text-align: center;
+}
+
+
+/*
+============================================================================================================
+                                        ABOUT PAGE 300-481PX RESPONIVE
+============================================================================================================
+*/
+
+#blog_page_single{
+    flex-direction: column;
+    position: relative;
+    height: auto;
+}
+.blog_page_single_content{
+    width: 280px;
+    margin: auto;
+}
+.blog_page_single_content_section img{
+    width: 100%;
+    position: relative;
+}
+
+.blog_page_single_content_article h1 {
+    font-size: 20px;
+    text-align: center;
+
+}
+.blog_page_single_content_section .meta {
+ 
+    top: 90px;
+}
+
+.blog_page_single_content_article_ul {
+    top: 15px;
+    position: relative;
+    text-align: center;
+
+
+}
+
+
+.blog_page_single_content_article_ul li{
+    text-align: justify;
+}
+
+article.blog_page_single_content_article{
+        /* position: relative; */
+        top: 0;
+        margin-bottom: 50px;
+        width: 100%;
+        height: auto;
+}
+
+/*
+============================================================================================================
+                                        BLOG-SINGLE PAGE 300-481PX RESPONIVE
+============================================================================================================
+*/
+main#blog_page {
+    flex-direction: column;
+}
+.blog_page_Content {
+    width: 280px;
+    margin: auto;
+}
+.blog_page_Content h1{
+    text-align: center;
+}
+.blog_page_Carousell_content_Article >a p{
+    font-size: 20px;
+}
+.blog_page_sub_content >li{
+    width: 280px;
+}
+img.blog_page_sub_content_img{
+    width: 100%;
+}
+.pagination{
+margin-bottom: 50px;
+}
+} 
 /* small devices (smartphones, 300px and 481px)*/
 
 
@@ -237,207 +351,7 @@ margin-top: 50px;
 
 
 @media screen and (min-width: 481px) and (max-width: 576px) {
-    .socialArea{
-        margin: auto;
-        float: none;
-        margin-left: 100px;
-        margin-bottom: 30px;
-    }
-    .newsArea{
-        width: 400px;
-        margin: auto;
-        }
-    .newsArea .BuisnessNews{
-        margin-right: 0;
-        margin-bottom: 50px;
-        }
-    .newsAreaRightTop{
-        flex-wrap: wrap;
-    }
-    .FeaturedNewsAreaSub_Fashion_Carousel_Article_head_Fashion{
-        font-size: 15px;
-    }
-    .FeaturedNewsAreaSub_Fashion_Carousel_Article{
-        left: 0;
-        width: 300px;
-    }
-    
-    .FeaturedNewsAreaSub_Fashion_Carousel_Article_head_Fashion a{
-        font-size: 18px;
-    }
-    .BuisnessNewsArticle{
-        top: 175px;
-    }
-    .sportNewsSlide{
-        margin-bottom: 50px;
-    }
-    .sportNewsSlide,.PhotographyNewsSlide{
-    width: 400px;
-    
-    }
-    .healthSlide{
-    width: 400px;
-    }
-    #bannerArea{
-        width: 400px;
-        margin: auto;
-        margin-top: 100px;
-    }
-    #bannerArea >p{
-        text-align: center;
-        font-size: 14px;
-        font-weight: bolder;
-        top: 15px;
-    
-    }
-    #TopNewses .header h2{
-        margin-top: -12px;
-    }
-    #TopNewses .header h2 a{
-        font-size: 10px;
-    
-    }
-    
-    .TopNewsesCarouselBtns{
-        left: 65%;
-    }
-    .TopNewsesCarouselBtns li{
-        padding: 5px;
-    }
-    
-    
-    .FeaturedNewsArea_header_h2{
-        text-align: center;
-    }
-    
-    .FeaturedNewsAreaSub{
-        flex-wrap: wrap;
-        width: 400px;
-        margin: auto;
-    }
-    
-    .FeaturedNewsAreaPostsAreas{
-    width: 400px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    }
-    .headlines{
-    font-size: 25px;
-    }
-    
-    .middleArea{
-        width: 400px;
-        flex-wrap: wrap;
-    }
-    div#TrendingArea{
-        width: 100%;
-    }
-    .TrendingNewsesAreaContentsCarouselArea {
-        width: 400px;
-    }
-    .TrendingNewsesAreaContentsCarouselArticle p a {
-        font-size: 20px;
-        text-transform: uppercase;
-        color: #000;
-    }
-    .TrendingNewsesAreaContents{
-        width: 400px;
-        margin: auto;
-        margin-bottom: 50px!important;
-    }
-    .TrendingNewsesAreaContentsCarouselArticle{
-        left: 0!important;
-    }
-    .TrendingNewsesBottomAreaContentPosts{
-        width: 400px;
-        margin: auto;
-        margin-bottom: 50px;
-    }
-     .TrendingNewsesBottomAreaContentPosts_img{
-        width: 100%;
-    }
-    
-    .WigetArea{
-        width: 400px;
-        border:none
-    }
-    
-    .TrendingAdvertismentAreaContent{
-        margin: 0;
-        width: 400px;
-    
-    }
-    .TopStoryWget h1{
-    text-align: center;
-    }
-    .TopStoryWgetContent{
-        width: 400px;
-    }
-    .TopStoryWgetContentPosts{
-        width: 400px;
-    }
-    
-    #WgetOtherStoryArea{
-        width: 400px;
-        margin-top: 50px;
-        margin-bottom: 50px;
-    }
-    .WgetOtherStoryAreaContent h1{
-        text-align: center;
-    }
-    .WgetOtherStoryAreaContentCarouselsArea{
-        width: 400px;
-    }
-    
-    
-    #TopTrendingVideosArea{
-        height: auto;
-    }
-    .Video {
-        width: 300px;
-        height: 300px;
-        margin-top: 50px;
-       
-    }
-    .videoArea{
-        width: 400px;
-        height: auto;
-        margin: auto;
-    }
-    .bigVideo{
-        width: 300px;
-        height: 300px;
-        top: 0;
-    }
-    .bigVideo >p{
-        font-size: 16px;
-        top: 145px;
-    }
-    .videoAreaHeader{
-    font-size: 20px;
-    text-align: center;
-    margin-top: 25px;
-    }
-    .inputsArea{
-      text-align: center;
-      
-    }
-    .inputsArea div{
-        margin-top: 15px;
-        margin-bottom: 50px;
-    }
-    .subName{
-    margin-left: 0;
-    }
-    
-    .footerTopContents li h2{
-    text-align: center;
-    margin-top: 50px;
-    }
-    .footerBottom{
-        font-size: 12px;
-    }
- 
+   
 }
 
 
