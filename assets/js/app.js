@@ -127,9 +127,8 @@ function TopRight(){
         TopNewsesCarousel.scrollLeft+=125;
     })
 }
-function MaxSize(max){
-     max=TopNewsesCarousel.scrollWidth-TopNewsesCarousel.clientWidth;
-}
+
+ const    max=TopNewsesCarousel.scrollWidth-TopNewsesCarousel.clientWidth;
 
 
 
@@ -137,8 +136,8 @@ function MaxSize(max){
 
 
 function Autoplay(){
-    if(TopNewsesCarousel.scrollLeft>(MaxSize(max)-1)){
-        TopNewsesCarousel.scrollLeft-=MaxSize(max);
+    if(TopNewsesCarousel.scrollLeft>(max-1)){
+        TopNewsesCarousel.scrollLeft-=max;
     }else{
         TopNewsesCarousel.scrollLeft+=1;
     }
@@ -208,16 +207,7 @@ function CategoryPageCarousel(){
         CategoryPageCarouselItems[index].style.display="none";
     }
 }
-function CategoryPageCarouselUpdate(){
-    CategoryPageCarousel()
-    index++;
-    if(index>CategoryPageCarouselItems.length-1){
-        index=0
-    }
-    CategoryPageCarouselItems[index].style.display="block";
-}
 
-setInterval(CategoryPageCarouselUpdate,1000)
 
 
 
