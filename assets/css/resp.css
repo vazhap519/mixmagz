@@ -695,12 +695,692 @@ margin-bottom: 50px;
 
 /* Medium devices (tablets, 768px and up)*/
 @media screen and (min-width: 576px) and (max-width: 768px) { 
+    .logoArea {
+        width: 100%;
+        margin: auto;
+        background: rebeccapurple;
+        text-align: center;
+    }
+    .socialArea{
+        margin: auto;
+        float: none;
+        width: 100%;
+        margin-bottom: 30px;
+        margin-top: 30px;
+        text-align: center;
+    }
+.newsArea{
+    width: 500px;
+    margin: auto;
+    }
+.newsArea .BuisnessNews{
+    margin-right: 0;
+    margin-bottom: 50px;
+    width: 500px;
+    }
+.newsAreaRightTop{
+    flex-wrap: wrap;
+}
+.FeaturedNewsAreaSub_Fashion_Carousel_Article_head_Fashion{
+    font-size: 15px;
+}
+.FeaturedNewsAreaSub_Fashion_Carousel_Article{
+    /* left: 0; */
+    width: 480px;
+}
+
+.FeaturedNewsAreaSub_Fashion_Carousel_Article_head_Fashion a{
+    font-size: 18px;
+}
+.BuisnessNewsArticle{
+    top: 175px;
+    /* left: 0; */
+    width: 100%;
+}
+.sportNewsSlide{
+    margin-bottom: 50px;
+}
+.sportNewsSlide,.PhotographyNewsSlide{
+width: 500px;
+
+}
+.healthSlide{
+width: 500px;
+}
+#bannerArea{
+    width: 500px;
+    margin: auto;
+    margin-top: 100px;
+}
+#bannerArea >p{
+    text-align: center;
+    font-size: 14px;
+    font-weight: bolder;
+    top: 15px;
+
+}
+#TopNewses .header h2{
+    margin-top: -12px;
+}
+#TopNewses .header h2 a{
+    font-size: 15px;
+
+}
+
+.TopNewsesCarouselBtns{
+    left: 65%;
+}
+.TopNewsesCarouselBtns li{
+    padding: 5px;
+}
+
+.FeaturedNewsAreaSub_Fashion_CarouselArea{
+    margin-right: 0;
+}
+.fashionMeta .meta{
+    font-size: 11px;
+}
+.FeaturedNewsArea_header_h2{
+    text-align: center;
+}
+
+.FeaturedNewsAreaSub{
+    flex-wrap: wrap;
+    width: 500px;
+    margin: auto;
+}
+
+.FeaturedNewsAreaPostsAreas{
+width: 500px;
+margin-top: 50px;
+margin-bottom: 50px;
+}
+.headlines{
+font-size: 20px;
+}
+
+.middleArea{
+    width: 500px;
+    flex-wrap: wrap;
+}
+div#TrendingArea{
+    width: 100%;
+}
+
+.TrendingNewsesAreaHead{
+    text-align: center;
+}
+
+.TrendingNewsesAreaContentsCarouselArea {
+    width: 500px;
+}
+.TrendingNewsesAreaContentsCarouselArticle p a {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #000;
+}
+.TrendingNewsesAreaContents{
+    width: 500px;
+    margin: auto;
+    margin-bottom: 50px!important;
+}
+.TrendingNewsesAreaContentsCarouselArticle{
+    left: 0!important;
+}
+.TrendingNewsesBottomAreaContentPosts{
+    width:500px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+ .TrendingNewsesBottomAreaContentPosts_img{
+    width: 100%;
+}
+
+.WigetArea{
+    width: 500px;
+    border:none;
+    margin: auto;
+
+}
+
+.TrendingAdvertismentAreaContent{
+    margin: 0;
+    width: 500px;
+
+
+}
+.TopStoryWget h1{
+text-align: center;
+}
+.TopStoryWgetContent{
+    width: 500px;
+}
+.TopStoryWgetContentPosts{
+    width: 500px;
+}
+
+#WgetOtherStoryArea{
+    width: 500px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.WgetOtherStoryAreaContent h1{
+    text-align: center;
+}
+.WgetOtherStoryAreaContentCarouselsArea{
+    width: 500px;
+}
+
+
+#TopTrendingVideosArea{
+    height: auto;
+}
+.Video {
+    width: 500px;
+    height: 300px;
+    margin-top: 50px;
+   
+}
+.videoAreaContent {
+    justify-content: center;
+}
+.videoArea{
+    width: 100%;
+    height: auto;
+}
+.bigVideo{
+    top: 0;
+    width: 500px;
+    height: 300px;
+}
+.bigVideo >p{
+    font-size: 14px;
+    top: 145px;
+    left: 0;
+    width: 430px;
+    left: 20px;
+
+}
+.videoAreaHeader{
+font-size: 20px;
+text-align: center;
+margin-top: 25px;
+}
+.inputsArea{
+  text-align: center;
   
+}
+.inputsArea div{
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+.subName{
+margin-left: 0;
+}
+
+footer#footer {
+    width: 500px;
+margin: auto;
+}
+.footerTopContents li h2{
+text-align: center;
+margin-top: 50px;
+}
+.footerBottom{
+    font-size: 12px;
+}
+/*
+============================================================================================================
+                                        INDEX PAGE 300-481PX RESPONIVE
+============================================================================================================
+*/
+
+#about_page{
+    flex-direction: column;
+}
+.about_page_Content{
+    width: 500px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.about_page_Content_description{
+    width: 100%;
+}
+.about_page_Content_description_H1{
+    text-align: center;
+}
+
+
+/*
+============================================================================================================
+                                        ABOUT PAGE 300-481PX RESPONIVE
+============================================================================================================
+*/
+
+#blog_page_single{
+    flex-direction: column;
+    position: relative;
+    height: auto;
+}
+.blog_page_single_content{
+    width: 500px;
+    margin: auto;
+}
+.blog_page_single_content_section img{
+    width: 100%;
+    position: relative;
+}
+
+.blog_page_single_content_article h1 {
+    font-size: 20px;
+    text-align: center;
+
+}
+.blog_page_single_content_section .meta {
+ 
+    top: 90px;
+}
+
+.blog_page_single_content_article_ul {
+    top: 15px;
+    position: relative;
+    text-align: center;
+
+
+}
+
+
+.blog_page_single_content_article_ul li{
+    text-align: justify;
+}
+
+article.blog_page_single_content_article{
+        /* position: relative; */
+        top: 0;
+        margin-bottom: 50px;
+        width: 100%;
+        height: auto;
+}
+
+/*
+============================================================================================================
+                                        BLOG-SINGLE PAGE 300-481PX RESPONIVE
+============================================================================================================
+*/
+main#blog_page {
+    flex-direction: column;
+}
+.blog_page_Content {
+    width: 500px;
+    margin: auto;
+}
+.blog_page_Content h1{
+    text-align: center;
+}
+.blog_page_Carousell_content_Article >a p{
+    font-size: 20px;
+}
+.blog_page_sub_content >li{
+    width: 500px;
+}
+img.blog_page_sub_content_img{
+    width: 100%;
+}
+.pagination{
+margin-bottom: 50px;
+}
+.TopStoryWgetButtons{
+    width: 500px;
+}
+.WgetOtherStoryAreaContentCarouselsContent{
+    justify-content: space-evenly;
+}
  }
 
 /*Large devices (desktops, 992px and up)*/
 @media screen and  (min-width: 768px) and (max-width: 992px) { 
+    .logoArea {
+        width: 100%;
+        margin: auto;
+        background: rebeccapurple;
+        text-align: center;
+    }
+    .socialArea{
+        margin: auto;
+        float: none;
+        width: 100%;
+        margin-bottom: 30px;
+        margin-top: 30px;
+        text-align: center;
+    }
+.newsArea{
+    width: 500px;
+    margin: auto;
+    }
+.newsArea .BuisnessNews{
+    margin-right: 0;
+    margin-bottom: 50px;
+    width: 500px;
+    }
+.newsAreaRightTop{
+    flex-wrap: wrap;
+}
+.FeaturedNewsAreaSub_Fashion_Carousel_Article_head_Fashion{
+    font-size: 15px;
+}
+.FeaturedNewsAreaSub_Fashion_Carousel_Article{
+    /* left: 0; */
+    width: 480px;
+}
+
+.FeaturedNewsAreaSub_Fashion_Carousel_Article_head_Fashion a{
+    font-size: 18px;
+}
+.BuisnessNewsArticle{
+    top: 175px;
+    /* left: 0; */
+    width: 100%;
+}
+.sportNewsSlide{
+    margin-bottom: 50px;
+}
+.sportNewsSlide,.PhotographyNewsSlide{
+width: 500px;
+
+}
+.healthSlide{
+width: 500px;
+}
+#bannerArea{
+    width: 500px;
+    margin: auto;
+    margin-top: 100px;
+}
+#bannerArea >p{
+    text-align: center;
+    font-size: 14px;
+    font-weight: bolder;
+    top: 15px;
+
+}
+#TopNewses .header h2{
+    margin-top: -12px;
+}
+#TopNewses .header h2 a{
+    font-size: 15px;
+
+}
+
+.TopNewsesCarouselBtns{
+    left: 65%;
+}
+.TopNewsesCarouselBtns li{
+    padding: 5px;
+}
+
+.FeaturedNewsAreaSub_Fashion_CarouselArea{
+    margin-right: 0;
+}
+.fashionMeta .meta{
+    font-size: 11px;
+}
+.FeaturedNewsArea_header_h2{
+    text-align: center;
+}
+
+.FeaturedNewsAreaSub{
+    flex-wrap: wrap;
+    width: 500px;
+    margin: auto;
+}
+
+.FeaturedNewsAreaPostsAreas{
+width: 500px;
+margin-top: 50px;
+margin-bottom: 50px;
+}
+.headlines{
+font-size: 20px;
+}
+
+.middleArea{
+    width: 500px;
+    flex-wrap: wrap;
+}
+div#TrendingArea{
+    width: 100%;
+}
+
+.TrendingNewsesAreaHead{
+    text-align: center;
+}
+
+.TrendingNewsesAreaContentsCarouselArea {
+    width: 500px;
+}
+.TrendingNewsesAreaContentsCarouselArticle p a {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #000;
+}
+.TrendingNewsesAreaContents{
+    width: 500px;
+    margin: auto;
+    margin-bottom: 50px!important;
+}
+.TrendingNewsesAreaContentsCarouselArticle{
+    left: 0!important;
+}
+.TrendingNewsesBottomAreaContentPosts{
+    width:500px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+ .TrendingNewsesBottomAreaContentPosts_img{
+    width: 100%;
+}
+
+.WigetArea{
+    width: 500px;
+    border:none;
+    margin: auto;
+
+}
+
+.TrendingAdvertismentAreaContent{
+    margin: 0;
+    width: 500px;
+
+
+}
+.TopStoryWget h1{
+text-align: center;
+}
+.TopStoryWgetContent{
+    width: 500px;
+}
+.TopStoryWgetContentPosts{
+    width: 500px;
+}
+
+#WgetOtherStoryArea{
+    width: 500px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.WgetOtherStoryAreaContent h1{
+    text-align: center;
+}
+.WgetOtherStoryAreaContentCarouselsArea{
+    width: 500px;
+}
+
+
+#TopTrendingVideosArea{
+    height: auto;
+}
+.Video {
+    width: 500px;
+    height: 300px;
+    margin-top: 50px;
+   
+}
+.videoAreaContent {
+    justify-content: center;
+}
+.videoArea{
+    width: 100%;
+    height: auto;
+}
+.bigVideo{
+    top: 0;
+    width: 500px;
+    height: 300px;
+}
+.bigVideo >p{
+    font-size: 14px;
+    top: 145px;
+    left: 0;
+    width: 430px;
+    left: 20px;
+
+}
+.videoAreaHeader{
+font-size: 20px;
+text-align: center;
+margin-top: 25px;
+}
+.inputsArea{
+  text-align: center;
   
+}
+.inputsArea div{
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+.subName{
+margin-left: 0;
+}
+
+footer#footer {
+    width: 500px;
+margin: auto;
+}
+.footerTopContents li h2{
+text-align: center;
+margin-top: 50px;
+}
+.footerBottom{
+    font-size: 12px;
+}
+/*
+============================================================================================================
+                                        INDEX PAGE 300-481PX RESPONIVE
+============================================================================================================
+*/
+
+#about_page{
+    flex-direction: column;
+}
+.about_page_Content{
+    width: 500px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.about_page_Content_description{
+    width: 100%;
+}
+.about_page_Content_description_H1{
+    text-align: center;
+}
+
+
+/*
+============================================================================================================
+                                        ABOUT PAGE 300-481PX RESPONIVE
+============================================================================================================
+*/
+
+#blog_page_single{
+    flex-direction: column;
+    position: relative;
+    height: auto;
+}
+.blog_page_single_content{
+    width: 500px;
+    margin: auto;
+}
+.blog_page_single_content_section img{
+    width: 100%;
+    position: relative;
+}
+
+.blog_page_single_content_article h1 {
+    font-size: 20px;
+    text-align: center;
+
+}
+.blog_page_single_content_section .meta {
+ 
+    top: 90px;
+}
+
+.blog_page_single_content_article_ul {
+    top: 15px;
+    position: relative;
+    text-align: center;
+
+
+}
+
+
+.blog_page_single_content_article_ul li{
+    text-align: justify;
+}
+
+article.blog_page_single_content_article{
+        /* position: relative; */
+        top: 0;
+        margin-bottom: 50px;
+        width: 100%;
+        height: auto;
+}
+
+/*
+============================================================================================================
+                                        BLOG-SINGLE PAGE 300-481PX RESPONIVE
+============================================================================================================
+*/
+main#blog_page {
+    flex-direction: column;
+}
+.blog_page_Content {
+    width: 500px;
+    margin: auto;
+}
+.blog_page_Content h1{
+    text-align: center;
+}
+.blog_page_Carousell_content_Article >a p{
+    font-size: 20px;
+}
+.blog_page_sub_content >li{
+    width: 500px;
+}
+img.blog_page_sub_content_img{
+    width: 100%;
+}
+.pagination{
+margin-bottom: 50px;
+}
+.TopStoryWgetButtons{
+    width: 500px;
+}
+.WgetOtherStoryAreaContentCarouselsContent{
+    justify-content: space-evenly;
+}
  }
 
 /* X-Large devices (large desktops, 1200px and up)*/

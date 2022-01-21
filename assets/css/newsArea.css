@@ -637,7 +637,7 @@ display: flex;
 width: 100%;
 max-width: 480px;
 height: 715px;
-max-width: 480px;
+
 max-height: 100%;
 margin-right: 35px;
 position: relative;
@@ -650,7 +650,7 @@ height: 715px;
 }
 .FeaturedNewsAreaSub_Fashion_Carousel >img{
 position: absolute;
-width: 480px;
+/* width: 480px; */
 max-width: 100%;
 height: 715px;
 max-height: 100%;
